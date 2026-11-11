@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Kija_Average</defName>
+    <graphicPath>Things/Kija/Head/Average_Normal</graphicPath>
+    <gender>None</gender>
+    <randomChosen>false</randomChosen>
+    <selectionWeight>99999</selectionWeight>
+    <requiredGenes>
+      <li>Kija_Head</li>
+    </requiredGenes>
+  </HeadTypeDef>
+</Defs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonKija</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[Kijafirst]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Kijafirst</keyword>
+          <path>Kija_Names/Kija_First</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

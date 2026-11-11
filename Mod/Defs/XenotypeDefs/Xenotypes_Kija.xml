@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <XenotypeDef>
+    <defName>Kija</defName>
+    <label>Kija</label>
+    <description>A gentle, docile people who look much like humanoid deer. Industrious at farming and at handling animals, they would not hold up much of a fight.</description>
+    <descriptionShort>A docile, deer-like people, industrious but fragile.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+    <displayPriority>500</displayPriority>
+    <nameMaker>NamerPersonKija</nameMaker>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Kija_Head</li>
+      <li>Kija_Skin</li>
+      <li>Kija_Tail</li>
+      <li>Kija_Chest</li>
+      <li>Kija_Constitution</li>
+      <li>Kija_Industry</li>
+    </genes>
+  </XenotypeDef>
+</Defs>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Look. The body is not here: it needs a body look the vanilla genes cannot give (see BACKLOG.md). -->
+
+  <GeneDef>
+    <defName>Kija_Head</defName>
+    <label>Kija head</label>
+    <description>Carriers of this gene have a Kija head: a fawn-coloured muzzle, large banded ears and a short crest of hair.</description>
+    <displayCategory>Cosmetic</displayCategory>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+    <iconColor>(0.75, 0.55, 0.35)</iconColor>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <forcedHeadTypes>
+      <li>Kija_Average</li>
+    </forcedHeadTypes>
+    <exclusionTags>
+      <li>HeadType</li>
+      <li>Kija_Head</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>Kija_Skin</defName>
+    <label>Kija coat</label>
+    <description>Carriers of this gene keep the Kija's pale fawn coat, drawn in the textures themselves.</description>
+    <displayCategory>Cosmetic</displayCategory>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+    <iconColor>(0.75, 0.55, 0.35)</iconColor>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <skinColorOverride>(255, 255, 255)</skinColorOverride>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+    <exclusionTags>
+      <li>SkinColor</li>
+      <li>SkinColorOverride</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>Kija_Tail</defName>
+    <label>Kija tail</label>
+    <description>Carriers of this gene have a short, pale Kija tail.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>1010</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_TailFurry</iconPath>
+    <iconColor>(0.75, 0.55, 0.35)</iconColor>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <exclusionTags>
+      <li>Tail</li>
+    </exclusionTags>
+    <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Kija/Tail/Tail</texPath>
+        <colorType>Skin</colorType>
+        <overrideMeshSize>(1, 1)</overrideMeshSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.015, 0, -0.1)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, -0.25)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.3, 0, -0.15)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(0.3, 0, -0.15)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>Kija_Chest</defName>
+    <label>Kija chest fur</label>
+    <description>Carriers of this gene have a tuft of pale fur on the chest.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>1020</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_TailFurry</iconPath>
+    <iconColor>(0.9, 0.85, 0.8)</iconColor>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Kija/Chest/Chest</texPath>
+        <colorType>Skin</colorType>
+        <overrideMeshSize>(1, 1)</overrideMeshSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>6</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, 0, 0)</offset>
+            <layer>-1</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(0, 0, 0.05)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(0.05, 0, 0.05)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(-0.05, 0, 0.05)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <!-- Aptitudes and body, read from Alien_Kija of the original (values relative to a human). -->
+
+  <GeneDef>
+    <defName>Kija_Constitution</defName>
+    <label>Kija constitution</label>
+    <description>Carriers of this gene have the Kija's light frame: a little less health, a lower appetite, and a fur coat that suits cold weather better than heat. They live about sixty years.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_Delicate</iconPath>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+    <statOffsets>
+      <ComfyTemperatureMin>-46</ComfyTemperatureMin>
+      <ComfyTemperatureMax>4</ComfyTemperatureMax>
+      <PsychicSensitivity>0.1</PsychicSensitivity>
+    </statOffsets>
+    <statFactors>
+      <Flammability>1.2</Flammability>
+      <MoveSpeed>1.4</MoveSpeed>
+      <LifespanFactor>0.75</LifespanFactor>
+    </statFactors>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>Kija_Industry</defName>
+    <label>Kija industry</label>
+    <description>Carriers of this gene are industrious: they research, mine, build and talk a little better than others, and harvest more from the plants they tend, though they are slower at the plant work itself.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>110</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <statFactors>
+      <ResearchSpeed>1.2</ResearchSpeed>
+      <MiningSpeed>1.2</MiningSpeed>
+      <ConstructionSpeed>1.2</ConstructionSpeed>
+      <SocialImpact>1.2</SocialImpact>
+      <PlantHarvestYield>1.2</PlantHarvestYield>
+      <PlantWorkSpeed>0.8</PlantWorkSpeed>
+    </statFactors>
+  </GeneDef>
+</Defs>

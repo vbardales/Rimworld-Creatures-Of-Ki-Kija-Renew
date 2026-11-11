@@ -23,9 +23,11 @@ published: no
 tested_on: never
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
-  - "2026-11-12: feature: rebuild the original Alien_Kija (HAR) as a Biotech xenotype with genes (see BACKLOG.md); read Races_Kija.xml, PawnKinds_Kija.xml, factions, name maker first"
-  - "2026-11-12: unverified: Biotech required (DLC dependency in About.xml), custom HeadTypeDef/BodyTypeDef versus gene-drawn parts, fate of HAR-only features (apparel whitelist, gene blacklists, KijaSettings weights)"
-  - "2026-11-12: unverified: tell the Teshi session its backlog item 'Teshi people as Biotech xenotype' moved here"
+  - "2026-11-12: feature: Kija body (drawn Female and Thin textures). Vanilla genes cannot name a custom body; BiB (biotechbodies, unpublished, C# only, no XML extension) cannot do it today. Owner decision 2026-11-12: use BiB, and ask BiB for a mod-independent furry body gene (asked, awaiting BiB reply). Add the BiB gene to Xenotype Kija once it exists"
+  - "2026-11-12: feature: pawn kinds (12) and factions (KijaOutcast, KijaColonyPlayer) of the original on Biotech: race Human + xenotypeSet; HAR-only parts (apparel whitelist, gene blacklists, KijaSettings weights) to decide"
+  - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
+  - "2026-11-12: unverified: asked RWDIP (via TM) how they gave a Biotech race its own body; awaiting reply"
+  - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-12
 protocols_read_sha: b04475c28fcbf27bd47f4ee877f08147e180efb9
 ---

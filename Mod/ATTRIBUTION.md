@@ -45,3 +45,12 @@ The teshi (animal, eggs, body): it lives in the sibling mod
 
 The original Kija are an `AlienRace.ThingDef_AlienRace` of Humanoid Alien Races. This mod rebuilds them
 as a Biotech xenotype. Nothing of Humanoid Alien Races is used.
+
+## Status of the taking (2026-11-12)
+
+Taken unchanged: the 15 Kija PNG textures and `KijaCamp.png`, the 24 first names, the `NamerPersonKija` rule
+pack. Rebuilt on Biotech, values read from `Alien_Kija`: the stat genes `Kija_Constitution` and `Kija_Industry`
+(movement, temperature range, lifespan, research, mining, construction, social, plant yield and work speed),
+the genes `Kija_Head`, `Kija_Skin`, `Kija_Tail`, `Kija_Chest`, the head type `Kija_Average`, and the xenotype
+`Kija`. Not carried: the fist and bite tools, the hunger rate, the apparel whitelist and gene blacklists of the
+HAR race, and the HAR `KijaSettings` weights. Pawn kinds and factions come next.
