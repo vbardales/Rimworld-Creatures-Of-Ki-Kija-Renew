@@ -53,4 +53,4 @@ pack. Rebuilt on Biotech, values read from `Alien_Kija`: the stat genes `Kija_Co
 (movement, temperature range, lifespan, research, mining, construction, social, plant yield and work speed),
 the genes `Kija_Head`, `Kija_Skin`, `Kija_Tail`, `Kija_Chest`, the head type `Kija_Average`, and the xenotype
 `Kija`. Not carried: the fist and bite tools, the hunger rate, the apparel whitelist and gene blacklists of the
-HAR race, and the HAR `KijaSettings` weights. Pawn kinds and factions come next.
+HAR race, and the HAR `KijaSettings` weights (wanderer, refugee, slave and starting-colonist chances). Pawn kinds, factions and the Royalty Empire patch were converted: `race` is `Human` with the `Kija` xenotype, the rest as in the original.

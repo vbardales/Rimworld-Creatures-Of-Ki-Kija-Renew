@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="KijaFactionBasePlayer">
+    <settlementTexturePath>World/KijaCamp</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef ParentName="KijaFactionBasePlayer">
+    <defName>KijaColonyPlayer</defName>
+    <label>New Kija</label>
+    <description>Your very own Kija settlement.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist_Kija</basicMemberKind>
+    <pawnSingular>settler</pawnSingular>
+    <pawnsPlural>settlers</pawnsPlural>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Kija>999</Kija>
+      </xenotypeChances>
+    </xenotypeSet>
+    <techLevel>Industrial</techLevel>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <backstoryCategories>
+      <li>Outlander</li>
+    </backstoryCategories>
+    <factionIconPath>World/KijaCamp</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+  </FactionDef>
+</Defs>

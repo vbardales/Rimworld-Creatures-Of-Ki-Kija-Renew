@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Original (Royalty/1.3/Patches/Factions_Misc.xml): the Kija factions are not permanent enemies of the Empire. -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+      <value>
+        <li>KijaOutcast</li>
+        <li>KijaColonyPlayer</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

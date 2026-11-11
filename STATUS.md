@@ -23,8 +23,8 @@ published: no
 tested_on: never
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
+  - "2026-11-12: unverified: pawn kinds (13), factions (KijaOutcast, KijaColonyPlayer) and the Royalty Empire patch converted from the original (race Human + xenotypeSet Kija 999); HAR-only parts dropped (apparel whitelist, gene blacklists, KijaSettings weights); settings of wanderers, refugees, slaves, starting colonists to be decided; nothing played"
   - "2026-11-12: feature: Kija body (drawn Female and Thin textures). Vanilla genes cannot name a custom body; BiB (biotechbodies, unpublished, C# only, no XML extension) cannot do it today. Owner decision 2026-11-12: use BiB, and ask BiB for a mod-independent furry body gene (asked, awaiting BiB reply). Add the BiB gene to Xenotype Kija once it exists"
-  - "2026-11-12: feature: pawn kinds (12) and factions (KijaOutcast, KijaColonyPlayer) of the original on Biotech: race Human + xenotypeSet; HAR-only parts (apparel whitelist, gene blacklists, KijaSettings weights) to decide"
   - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
   - "2026-11-12: unverified: asked RWDIP (via TM) how they gave a Biotech race its own body; awaiting reply"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
