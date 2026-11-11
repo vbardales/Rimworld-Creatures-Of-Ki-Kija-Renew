@@ -23,10 +23,9 @@ published: no
 tested_on: never
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
+  - "2026-11-12: feature: Kija body (drawn Female and Thin textures, Things/Kija/Body/Naked_<type>). Read in the game code: a FurDef is only an overlay over the vanilla body (PawnRenderNode_Fur), so the human body would show around the Kija gourd shape; a gene cannot name a custom BodyTypeDef (GeneticBodyType). RWRBP (Rhyaeth WDI patch) uses a FurDef overlay, fine for human-shaped bodies only. BiB (C# only, unpublished, no XML extension) cannot do it today. Owner decision 2026-11-12: use BiB; asked BiB (local_1d89a27b) for a mod-independent furry body gene (body type kept, texture path per type from our mod, no vanilla body peeking out, white tint); awaiting its answer. If BiB refuses: propose a small own Harmony patch to the owner (not done without her OK). Then add the BiB gene to Xenotype Kija and declare the dependency"
   - "2026-11-12: unverified: pawn kinds (13), factions (KijaOutcast, KijaColonyPlayer) and the Royalty Empire patch converted from the original (race Human + xenotypeSet Kija 999); HAR-only parts dropped (apparel whitelist, gene blacklists, KijaSettings weights); settings of wanderers, refugees, slaves, starting colonists to be decided; nothing played"
-  - "2026-11-12: feature: Kija body (drawn Female and Thin textures). Vanilla genes cannot name a custom body; BiB (biotechbodies, unpublished, C# only, no XML extension) cannot do it today. Owner decision 2026-11-12: use BiB, and ask BiB for a mod-independent furry body gene (asked, awaiting BiB reply). Add the BiB gene to Xenotype Kija once it exists"
   - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
-  - "2026-11-12: unverified: asked RWDIP (via TM) how they gave a Biotech race its own body; awaiting reply"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-12
 protocols_read_sha: b04475c28fcbf27bd47f4ee877f08147e180efb9
