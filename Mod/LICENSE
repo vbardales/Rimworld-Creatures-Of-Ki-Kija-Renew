@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2020 Mlie
+Copyright (c) 2026 Nelim
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+SCOPE OF THE ABOVE
+
+The Mlie notice above is the ORIGINAL AUTHOR'S. It is Mlie's MIT licence, taken
+from the repository of Creatures of Ki (Continued), which continues Shooki's mod:
+
+  https://steamcommunity.com/sharedfiles/filedetails/?id=2726461020
+  https://github.com/emipa606/CreaturesOfKi
+
+It travels with this mod because MIT requires it to, and because it is what
+grants the right to publish this mod at all. Shooki designed the Kija; Mlie
+carried the mod to 1.4.
+
+The Kija textures and their name list are theirs, taken as they were. Rebuilding
+the Kija as a Biotech xenotype (genes, xenotype, pawn kinds, factions, name
+maker), the port work, the French, the packaging and the documentation are
+Nelim's, and are offered under the same MIT terms as the notice above.
+
+ATTRIBUTION.md records what was taken, what was left behind and what was
+changed, file by file.

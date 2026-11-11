@@ -1,0 +1,42 @@
+# XML and textures only: no assembly, no Source/ directory unless one is added later.
+# Build intermediates.
+Build/
+Tests/Pickle/build/
+Source/obj/
+Source/bin/
+
+# Claude Code session worktrees and local settings.
+.claude/
+
+# Showcase notes: working notes, deleted once Preview.png and ModIcon.png are done.
+PROMPT_*.md
+
+# Development environments.
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.csproj.user
+
+# System.
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# DDS textures: the PNG is the source, the game regenerates the rest.
+*.dds
+
+# Pickle evidence stays on disk, never in git.
+Tests/Pickle/Evidence/
+evidence/
+
+# Local Windows folder icons, derived from the PNGs, never published.
+Art/*.ico
+
+# Reproducible Preview diagnostics generated locally by the shared renderer.
+Art/.render/
+
+# Pickle runs land in Inbox/, failures wait in Parked/.
+Tests/Pickle/Inbox/
+Tests/Pickle/Parked/
