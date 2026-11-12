@@ -7,6 +7,15 @@
     <li>1.6</li>
   </supportedVersions>
   <url>https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Kija-Renew</url>
+  <modDependencies>
+    <li>
+      <packageId>nelim.biotechbodies</packageId>
+      <displayName>Biotech Bodies</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>nelim.biotechbodies</li>
+  </loadAfter>
   <description>The Kija from Shooki's Creatures of Ki (https://steamcommunity.com/sharedfiles/filedetails/?id=2726461020), rebuilt as a Biotech xenotype for the latest RimWorld version.
 
 Work in progress: this description is written at publication.

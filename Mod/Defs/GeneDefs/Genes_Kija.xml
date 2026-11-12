@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- Look. The body is not here: it needs a body look the vanilla genes cannot give (see BACKLOG.md). -->
+  <!-- Look. The body uses the Biotech Bodies (BiB) body look extension. -->
+
+  <GeneDef>
+    <defName>Kija_Body</defName>
+    <label>Kija body</label>
+    <description>Carriers of this gene have a Kija body: a slender deer-like frame covered in fawn fur.</description>
+    <displayCategory>Cosmetic</displayCategory>
+    <displayOrderInCategory>11</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+    <iconColor>(0.75, 0.55, 0.35)</iconColor>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <exclusionTags>
+      <li>BiB_BodyLook</li>
+    </exclusionTags>
+    <modExtensions>
+      <li Class="BiotechBodies.BodyLookExtension">
+        <bodyPaths>
+          <li>
+            <bodyType>Female</bodyType>
+            <path>Things/Kija/Body/Naked_Female</path>
+          </li>
+          <li>
+            <bodyType>Thin</bodyType>
+            <path>Things/Kija/Body/Naked_Thin</path>
+          </li>
+        </bodyPaths>
+      </li>
+    </modExtensions>
+  </GeneDef>
 
   <GeneDef>
     <defName>Kija_Head</defName>
