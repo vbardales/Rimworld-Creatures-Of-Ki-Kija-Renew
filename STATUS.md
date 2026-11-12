@@ -6,14 +6,14 @@ remote: https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Kija-Renew.git
 local_path: C:\Users\nelim\Documents\rimworld\CreaturesOfKiKijaRenew
 visibility: public
 detached: yes
-workflow_stage: settings[1.0.0]
+workflow_stage: localize[1.0.0]
 licence: open
 licence_spdx: MIT
 licence_at: "2026-11-12: MIT, copyright 2020 Mlie, in LICENSE of the upstream repository (emipa606/CreaturesOfKi, archived 2024-04-25) and in LICENSE.md of Workshop 2726461020; the source declares 1.4 and nothing further, so it is not alive in the latest version; MIT permits redistribution with the notice, which ships in LICENSE and Mod/LICENSE"
 upstream_mod_remotes:
   - https://github.com/emipa606/CreaturesOfKi
 upstream_pr: impossible, repository archived (read-only since 2024-04-25); the Teshi mod documented the same refusal on 2026-09-28
-settings_audit: unchecked
+settings_audit: not_applicable
 localization: unchecked
 translation_en: unchecked
 translation_fr: unchecked
@@ -29,7 +29,7 @@ remaining:
   - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-12
-protocols_read_sha: 007e0b122a4c6c53162804fe97034c68a85d8be4
+protocols_read_sha: b14aab5e8b2a7be8e53983a3d94548309d72f30f
 ---
 
 # Creatures of Ki: Kija Renew: status
@@ -39,5 +39,7 @@ Current state only: the front matter above is the source of truth, run lines go 
 the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, no Biotech or xenotype Kija mod.
 
 2026-11-12: ChatGPT review of the English texts validated by the owner (2 pages: 1 applied, 2 refused, then 0 recommendations); refusals in Docs/review-refusals.md. French not written yet.
+
+2026-11-12 Settings audit (5.a to 5.g): not_applicable. Inventory read in the sources: Mod/ holds only XML defs (FactionDefs, GeneDefs, HeadTypeDefs, PawnKindDefs_Humanlikes, RulePackDefs, XenotypeDefs), one patch, textures and one name file. No assembly, no Source/, no ModSettings class, no MainButtonDef, no settings key in Languages. So no settings page and no MainButtons shortcut exist, none is empty or greyed. Nothing configurable that players need beyond what vanilla Biotech xenotype selection gives. Spawn weights of the pawn kinds (wanderers, refugees, slaves, starting colonists) stay fixed in the defs, not settings. Checks: Check-Status 0 errors, replay ledger .replays/CreaturesOfKiKijaRenew-20261112.tsv (Check-Replay OK).
 
 2026-11-12 dependencies (rev 0a87663): hard: nelim.biotechbodies (Kija_Body gene, not published yet, no Workshop URL until its release; add steamWorkshopUrl then). DLC: Biotech required (xenotype, genes), declared loadAfter Ludeon.RimWorld.Biotech. Optional: Royalty (Patches/Royalty_Empire.xml, PatchOperationFindMod, OptionalCompat.xml). workshop_required_items: n/a, not released yet.
