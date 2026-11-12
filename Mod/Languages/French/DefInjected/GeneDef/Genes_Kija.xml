@@ -7,11 +7,11 @@
   <Kija_Skin.label>pelage kija</Kija_Skin.label>
   <Kija_Skin.description>Ce gène conserve le pelage fauve clair des Kija, dessiné directement dans les textures.</Kija_Skin.description>
   <Kija_Tail.label>queue kija</Kija_Tail.label>
-  <Kija_Tail.description>Ce gène donne une courte queue kija, pâle.</Kija_Tail.description>
+  <Kija_Tail.description>Ce gène donne une courte queue pâle de Kija.</Kija_Tail.description>
   <Kija_Chest.label>fourrure pectorale kija</Kija_Chest.label>
   <Kija_Chest.description>Ce gène donne une touffe de fourrure claire sur le torse.</Kija_Chest.description>
   <Kija_Constitution.label>constitution kija</Kija_Constitution.label>
-  <Kija_Constitution.description>Ce gène donne la silhouette légère des Kija : un peu moins de santé, un appétit réduit, et une fourrure qui convient mieux au froid qu'à la chaleur. L'espérance de vie est d'environ soixante ans.</Kija_Constitution.description>
+  <Kija_Constitution.description>Ce gène donne la silhouette légère des Kija : un peu moins de santé, un appétit réduit et une fourrure qui convient mieux au froid qu'à la chaleur. L'espérance de vie est d'environ soixante ans.</Kija_Constitution.description>
   <Kija_Industry.label>application kija</Kija_Industry.label>
   <Kija_Industry.description>Ce gène donne le goût du travail : recherche, minage, construction et dialogue sont un peu meilleurs que chez les autres, et les plantes soignées rapportent davantage, mais le travail des plantes elles-mêmes est plus lent.</Kija_Industry.description>
 </LanguageData>
