@@ -14,8 +14,8 @@ upstream_mod_remotes:
   - https://github.com/emipa606/CreaturesOfKi
 upstream_pr: impossible, repository archived (read-only since 2024-04-25); the Teshi mod documented the same refusal on 2026-09-28
 settings_audit: not_applicable
-localization: unchecked
-translation_en: unchecked
+localization: partial
+translation_en: complete
 translation_fr: unchecked
 dependencies: complete
 workshop: none
@@ -43,3 +43,5 @@ the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, 
 2026-11-12 Settings audit (5.a to 5.g): not_applicable. Inventory read in the sources: Mod/ holds only XML defs (FactionDefs, GeneDefs, HeadTypeDefs, PawnKindDefs_Humanlikes, RulePackDefs, XenotypeDefs), one patch, textures and one name file. No assembly, no Source/, no ModSettings class, no MainButtonDef, no settings key in Languages. So no settings page and no MainButtons shortcut exist, none is empty or greyed. Nothing configurable that players need beyond what vanilla Biotech xenotype selection gives. Spawn weights of the pawn kinds (wanderers, refugees, slaves, starting colonists) stay fixed in the defs, not settings. Checks: Check-Status 0 errors, replay ledger .replays/CreaturesOfKiKijaRenew-20261112.tsv (Check-Replay OK).
 
 2026-11-12 dependencies (rev 0a87663): hard: nelim.biotechbodies (Kija_Body gene, not published yet, no Workshop URL until its release; add steamWorkshopUrl then). DLC: Biotech required (xenotype, genes), declared loadAfter Ludeon.RimWorld.Biotech. Optional: Royalty (Patches/Royalty_Empire.xml, PatchOperationFindMod, OptionalCompat.xml). workshop_required_items: n/a, not released yet.
+
+2026-11-12 Translation audit: English texts reviewed by ChatGPT (3 passes, 1 applied, 3 refused, last pass 0 corrections) and validated by Virginie, rev f27c2b6. translation_en complete. French not written yet: translation_fr unchecked, 31 gaps in Check-Translations.
