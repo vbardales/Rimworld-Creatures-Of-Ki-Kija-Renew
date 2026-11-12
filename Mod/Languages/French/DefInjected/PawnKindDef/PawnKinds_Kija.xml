@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VillagerKija.label>villageois</VillagerKija.label>
+  <Town_GuardKija.label>garde de la ville</Town_GuardKija.label>
+  <Kija_Trader.label>marchand kija</Kija_Trader.label>
+  <Kija_Leader.label>chef de la ville</Kija_Leader.label>
+  <Colonist_Kija.label>colon</Colonist_Kija.label>
+  <Kija_Protector.label>protecteur kija</Kija_Protector.label>
+  <Kija_Ranger.label>rôdeur kija</Kija_Ranger.label>
+  <Kija_Defender.label>défenseur kija</Kija_Defender.label>
+  <Kija_Veteran.label>vétéran kija</Kija_Veteran.label>
+  <Kija_Warrior.label>guerrier kija</Kija_Warrior.label>
+  <Kija_Cleanser.label>purificateur kija</Kija_Cleanser.label>
+</LanguageData>
