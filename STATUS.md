@@ -29,7 +29,7 @@ remaining:
   - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-12
-protocols_read_sha: c32984627d179fee6df20ce79bf3a883253e2511
+protocols_read_sha: 007e0b122a4c6c53162804fe97034c68a85d8be4
 ---
 
 # Creatures of Ki: Kija Renew: status
