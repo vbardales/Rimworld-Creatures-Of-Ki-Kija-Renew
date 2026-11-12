@@ -16,7 +16,7 @@ upstream_pr: impossible, repository archived (read-only since 2024-04-25); the T
 settings_audit: not_applicable
 localization: partial
 translation_en: complete
-translation_fr: unchecked
+translation_fr: partial
 dependencies: complete
 workshop: none
 workshop_required_items: n/a, not released yet
@@ -45,3 +45,5 @@ the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, 
 2026-11-12 dependencies (rev 0a87663): hard: nelim.biotechbodies (Kija_Body gene, not published yet, no Workshop URL until its release; add steamWorkshopUrl then). DLC: Biotech required (xenotype, genes), declared loadAfter Ludeon.RimWorld.Biotech. Optional: Royalty (Patches/Royalty_Empire.xml, PatchOperationFindMod, OptionalCompat.xml). workshop_required_items: n/a, not released yet.
 
 2026-11-12 Translation audit: English texts reviewed by ChatGPT (3 passes, 1 applied, 3 refused, last pass 0 corrections) and validated by Virginie, rev f27c2b6. translation_en complete. French not written yet: translation_fr unchecked, 31 gaps in Check-Translations.
+
+2026-11-12 Translation audit (French): French lives in Mod/Languages/French/DefInjected (GeneDef, XenotypeDef, FactionDef, PawnKindDef), 31 keys, no Keyed text, no code text. ChatGPT review of the French text: 2 applied (Kija_Chest.label, CHANGELOG wording), 1 not applicable yet (PUBLICATION.md, written at writeDocs). Doubts flagged in Docs/translation-review-flags.json (masculine role labels, labeur, KijaColonyPlayer.description). Check-Translations PASS. translation_fr stays partial until Virginie reviews the French (unverified: French review by Virginie; in-game check at playTests).

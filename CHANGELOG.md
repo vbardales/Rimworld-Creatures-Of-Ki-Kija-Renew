@@ -9,4 +9,4 @@ in game.
 ### Added
 
 - Repository set up.
-- Kija Biotech xenotype (genes, head type, name maker, pawn kinds, factions, Royalty Empire patch) and Kija body look through Biotech Bodies. Nothing played yet.
+- Kija Biotech xenotype (genes, head type, name maker, pawn kinds, factions, Royalty Empire patch) and Kija body appearance through Biotech Bodies. Not yet tested in-game.

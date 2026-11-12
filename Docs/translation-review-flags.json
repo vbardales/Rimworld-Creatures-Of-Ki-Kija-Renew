@@ -1,6 +1,5 @@
 {
   "Kija_Trader.label": "Role labels (trader, protector, ranger, defender, veteran, warrior, cleanser, villager) are written in the masculine: a PawnKindDef label has no gender switch. A labelFemale form could be added: your call.",
   "Kija_Industry.label": "English 'industry' means industriousness; 'labeur' chosen, alternatives 'zele' or 'application'.",
-  "Kija_Chest.label": "'fourrure de torse' chosen for 'chest fur'; alternative 'fourrure pectorale'.",
   "KijaColonyPlayer.description": "'Your very own' rendered impersonally as 'bien a soi' (no vous, no possessive): check the tone."
 }
