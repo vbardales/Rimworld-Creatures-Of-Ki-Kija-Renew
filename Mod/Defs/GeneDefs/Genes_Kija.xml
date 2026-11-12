@@ -53,7 +53,7 @@
   <GeneDef>
     <defName>Kija_Skin</defName>
     <label>Kija coat</label>
-    <description>Carriers of this gene keep the Kija's pale fawn coat, drawn in the textures themselves.</description>
+    <description>Carriers of this gene retain the Kija's pale fawn coat, which is drawn directly into the textures.</description>
     <displayCategory>Cosmetic</displayCategory>
     <displayOrderInCategory>20</displayOrderInCategory>
     <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
