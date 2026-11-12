@@ -141,7 +141,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="KijaBase">
     <defName>Kija_Leader</defName>
-    <label>town</label>
+    <label>town leader</label>
     <combatPower>40</combatPower>
     <factionLeader>true</factionLeader>
     <minGenerationAge>30</minGenerationAge>
