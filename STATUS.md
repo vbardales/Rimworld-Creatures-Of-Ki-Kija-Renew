@@ -6,7 +6,7 @@ remote: https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Kija-Renew.git
 local_path: C:\Users\nelim\Documents\rimworld\CreaturesOfKiKijaRenew
 visibility: public
 detached: yes
-workflow_stage: localize[1.0.0]
+workflow_stage: writeTests[1.0.0]
 licence: open
 licence_spdx: MIT
 licence_at: "2026-11-12: MIT, copyright 2020 Mlie, in LICENSE of the upstream repository (emipa606/CreaturesOfKi, archived 2024-04-25) and in LICENSE.md of Workshop 2726461020; the source declares 1.4 and nothing further, so it is not alive in the latest version; MIT permits redistribution with the notice, which ships in LICENSE and Mod/LICENSE"
@@ -14,9 +14,9 @@ upstream_mod_remotes:
   - https://github.com/emipa606/CreaturesOfKi
 upstream_pr: impossible, repository archived (read-only since 2024-04-25); the Teshi mod documented the same refusal on 2026-09-28
 settings_audit: not_applicable
-localization: partial
+localization: complete
 translation_en: complete
-translation_fr: partial
+translation_fr: complete
 dependencies: complete
 workshop: none
 workshop_required_items: n/a, not released yet
@@ -27,10 +27,10 @@ remaining:
   - "2026-11-12: unpushed: 3 local commits (0da820d, 0a87663, 6efee7a) not pushed on purpose: public repo would reference unpublished BiB; push at BiB release unless the owner says earlier. 2026-11-12: unverified: Kija body in XML, not played, waiting only for BiB green message (local_1d89a27b) before the Pickle ticket; owner: continue other stages in parallel, only our release depends on BiB release: GeneDef Kija_Body (BiotechBodies.BodyLookExtension, Female + Thin paths Things/Kija/Body/Naked_<type>, exclusionTag BiB_BodyLook) in Xenotype Kija; About: modDependencies + loadAfter nelim.biotechbodies. BiB (local_1d89a27b, owner yes 2026-11-12) not published, adds test and replays: do not ship before its green report and its release. No Child/Baby textures (game graphic kept). To check in game with Pickle: no vanilla body peeking out, tint white"
   - "2026-11-12: unverified: pawn kinds (13), factions (KijaOutcast, KijaColonyPlayer) and the Royalty Empire patch converted from the original (race Human + xenotypeSet Kija 999); HAR-only parts dropped (apparel whitelist, gene blacklists, KijaSettings weights); settings of wanderers, refugees, slaves, starting colonists to be decided; nothing played"
   - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
-  - "2026-11-12: unverified: French pawn kind labels are masculine (no labelFemale): check the render in game at playTests, add labelFemale only if a woman shows a masculine title; French review by Virginie pending"
+  - "2026-11-12: unverified: French pawn kind labels are masculine (no labelFemale): check the render in game at playTests, add labelFemale only if a woman shows a masculine title"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-12
-protocols_read_sha: b14aab5e8b2a7be8e53983a3d94548309d72f30f
+protocols_read_sha: a66355900722794963ec5b1944d259d745eae060
 ---
 
 # Creatures of Ki: Kija Renew: status
@@ -48,3 +48,5 @@ the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, 
 2026-11-12 Translation audit: English texts reviewed by ChatGPT (3 passes, 1 applied, 3 refused, last pass 0 corrections) and validated by Virginie, rev f27c2b6. translation_en complete. French not written yet: translation_fr unchecked, 31 gaps in Check-Translations.
 
 2026-11-12 Translation audit (French): French lives in Mod/Languages/French/DefInjected (GeneDef, XenotypeDef, FactionDef, PawnKindDef), 31 keys, no Keyed text, no code text. ChatGPT review of the French text: 2 applied (Kija_Chest.label, CHANGELOG wording), 1 not applicable yet (PUBLICATION.md, written at writeDocs). Doubts flagged in Docs/translation-review-flags.json (masculine role labels, labeur, KijaColonyPlayer.description). Check-Translations PASS. translation_fr stays partial until Virginie reviews the French (unverified: French review by Virginie; in-game check at playTests).
+
+2026-11-12 French review by Virginie: validated, revision 434e4a6, no corrections requested (4 ChatGPT passes beforehand: 3 applied remarks, 0 refused after the first two; last pass 0 corrections). translation_fr complete, localization complete. In game checks (raw keys, pawn kind labels render) stay unverified until playTests.
