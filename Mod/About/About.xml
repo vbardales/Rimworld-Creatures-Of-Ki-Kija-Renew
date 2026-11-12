@@ -14,6 +14,8 @@
     </li>
   </modDependencies>
   <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Biotech</li>
     <li>nelim.biotechbodies</li>
   </loadAfter>
   <description>The Kija from Shooki's Creatures of Ki (https://steamcommunity.com/sharedfiles/filedetails/?id=2726461020), rebuilt as a Biotech xenotype for the latest RimWorld version.

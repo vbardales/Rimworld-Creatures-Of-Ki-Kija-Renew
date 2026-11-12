@@ -6,7 +6,7 @@ remote: https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Kija-Renew.git
 local_path: C:\Users\nelim\Documents\rimworld\CreaturesOfKiKijaRenew
 visibility: public
 detached: yes
-workflow_stage: declareDependencies[1.0.0]
+workflow_stage: settings[1.0.0]
 licence: open
 licence_spdx: MIT
 licence_at: "2026-11-12: MIT, copyright 2020 Mlie, in LICENSE of the upstream repository (emipa606/CreaturesOfKi, archived 2024-04-25) and in LICENSE.md of Workshop 2726461020; the source declares 1.4 and nothing further, so it is not alive in the latest version; MIT permits redistribution with the notice, which ships in LICENSE and Mod/LICENSE"
@@ -17,8 +17,9 @@ settings_audit: unchecked
 localization: unchecked
 translation_en: unchecked
 translation_fr: unchecked
-dependencies: unchecked
+dependencies: complete
 workshop: none
+workshop_required_items: n/a, not released yet
 published: no
 tested_on: never
 maintainer: Claude Code, the session that holds this standalone repository
@@ -38,3 +39,5 @@ Current state only: the front matter above is the source of truth, run lines go 
 the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, no Biotech or xenotype Kija mod.
 
 2026-11-12: ChatGPT review of the English texts validated by the owner (2 pages: 1 applied, 2 refused, then 0 recommendations); refusals in Docs/review-refusals.md. French not written yet.
+
+2026-11-12 dependencies (rev 0a87663): hard: nelim.biotechbodies (Kija_Body gene, not published yet, no Workshop URL until its release; add steamWorkshopUrl then). DLC: Biotech required (xenotype, genes), declared loadAfter Ludeon.RimWorld.Biotech. Optional: Royalty (Patches/Royalty_Empire.xml, PatchOperationFindMod, OptionalCompat.xml). workshop_required_items: n/a, not released yet.
