@@ -1,6 +1,6 @@
 ---
 mod: Creatures of Ki: Kija Renew
-packageId: nelim.creaturesofkikija
+packageId: nelim.creaturesofki.kija
 repo: Rimworld-Creatures-Of-Ki-Kija-Renew
 remote: https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Kija-Renew.git
 local_path: C:\Users\nelim\Documents\rimworld\CreaturesOfKiKijaRenew
