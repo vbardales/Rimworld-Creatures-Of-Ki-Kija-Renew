@@ -51,3 +51,7 @@ the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, 
 2026-11-12 Translation audit (French): French lives in Mod/Languages/French/DefInjected (GeneDef, XenotypeDef, FactionDef, PawnKindDef), 31 keys, no Keyed text, no code text. ChatGPT review of the French text: 2 applied (Kija_Chest.label, CHANGELOG wording), 1 not applicable yet (PUBLICATION.md, written at writeDocs). Doubts flagged in Docs/translation-review-flags.json (masculine role labels, labeur, KijaColonyPlayer.description). Check-Translations PASS. translation_fr stays partial until Virginie reviews the French (unverified: French review by Virginie; in-game check at playTests).
 
 2026-11-12 French review by Virginie: validated, revision 434e4a6, no corrections requested (4 ChatGPT passes beforehand: 3 applied remarks, 0 refused after the first two; last pass 0 corrections). translation_fr complete, localization complete. In game checks (raw keys, pawn kind labels render) stay unverified until playTests.
+
+## Ecosystem
+
+2026-11-13, study by PiI (`../docs/inventory/ecosystem-steam/CreaturesOfKiKijaRenew.md`, rev f7f2362, 298 Steam hits read, nothing subscribed): no duplicate, fork or replacement, no other Kija race. Only the original Creatures of Ki (Continued) 2726461020 (tags 1.0 to 1.4, dead for 1.6) shares our 14 defNames (expected). No other mod links, patches, retextures or translates it. Verdict: the mod goes on. Refresh at `playTests` (AUDIT 8.0).
