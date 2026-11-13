@@ -13,6 +13,7 @@ licence_at: "2026-11-12: MIT, copyright 2020 Mlie, in LICENSE of the upstream re
 upstream_mod_remotes:
   - https://github.com/emipa606/CreaturesOfKi
 upstream_pr: impossible, repository archived (read-only since 2024-04-25); the Teshi mod documented the same refusal on 2026-09-28
+upstream_synced: "2026-11-13 emipa606/CreaturesOfKi@52b8f28"
 settings_audit: not_applicable
 localization: complete
 translation_en: complete
