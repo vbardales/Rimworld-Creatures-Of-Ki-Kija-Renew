@@ -25,12 +25,12 @@ published: no
 tested_on: never
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
-  - "2026-11-12: unpushed: 3 local commits (0da820d, 0a87663, 6efee7a) not pushed on purpose: public repo would reference unpublished BiB; push at BiB release unless the owner says earlier. 2026-11-12: unverified: Kija body in XML, not played, waiting only for BiB green message (local_1d89a27b) before the Pickle ticket; owner: continue other stages in parallel, only our release depends on BiB release: GeneDef Kija_Body (BiotechBodies.BodyLookExtension, Female + Thin paths Things/Kija/Body/Naked_<type>, exclusionTag BiB_BodyLook) in Xenotype Kija; About: modDependencies + loadAfter nelim.biotechbodies. BiB (local_1d89a27b, owner yes 2026-11-12) not published, adds test and replays: do not ship before its green report and its release. No Child/Baby textures (game graphic kept). To check in game with Pickle: no vanilla body peeking out, tint white"
+  - "2026-11-12: unpushed: all local commits since origin/main (21 on 2026-11-13) not pushed on purpose: public repo would reference unpublished BiB; push at BiB release unless the owner says earlier. 2026-11-12: unverified: Kija body in XML, not played, waiting only for BiB green message (local_1d89a27b) before the Pickle ticket; owner: continue other stages in parallel, only our release depends on BiB release: GeneDef Kija_Body (BiotechBodies.BodyLookExtension, Female + Thin paths Things/Kija/Body/Naked_<type>, exclusionTag BiB_BodyLook) in Xenotype Kija; About: modDependencies + loadAfter nelim.biotechbodies. BiB (local_1d89a27b, owner yes 2026-11-12) not published, adds test and replays: do not ship before its green report and its release. No Child/Baby textures (game graphic kept). To check in game with Pickle: no vanilla body peeking out, tint white"
   - "2026-11-12: unverified: pawn kinds (13), factions (KijaOutcast, KijaColonyPlayer) and the Royalty Empire patch converted from the original (race Human + xenotypeSet Kija 999); HAR-only parts dropped (apparel whitelist, gene blacklists, KijaSettings weights); settings of wanderers, refugees, slaves, starting colonists to be decided; nothing played"
   - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
   - "2026-11-12: unverified: French pawn kind labels are masculine (no labelFemale): check the render in game at playTests, add labelFemale only if a woman shows a masculine title"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
-updated: 2026-11-12
+updated: 2026-11-13
 protocols_read_sha: 61aebffdd2790f3f440cd90488973b8705718c8a
 ---
 
