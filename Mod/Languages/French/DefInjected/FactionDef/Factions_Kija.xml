@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <KijaOutcast.label>Parias kija</KijaOutcast.label>
-  <KijaOutcast.description>Un groupe de parias kija.</KijaOutcast.description>
-  <KijaColonyPlayer.label>Nouveaux Kija</KijaColonyPlayer.label>
+  <KijaOutcast.label>Parias kijas</KijaOutcast.label>
+  <KijaOutcast.description>Un groupe de parias kijas.</KijaOutcast.description>
+  <KijaColonyPlayer.label>Nouvelle Kija</KijaColonyPlayer.label>
   <KijaColonyPlayer.description>Une colonie kija bien à soi.</KijaColonyPlayer.description>
 </LanguageData>
