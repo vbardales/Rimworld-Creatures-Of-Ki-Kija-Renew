@@ -1,0 +1,10 @@
+# Kija body: Harmony (a hard dependency of Biotech Bodies), the shared Pickle tools, then Biotech Bodies (not published,
+# staged from the local checkout). No texture mod, no optional mod: the Kija mod declares none beyond Royalty, which is not staged.
+#   Submit-PickleRun.ps1 -Mod CreaturesOfKiKijaRenew -DepMap wsl-deps.kijabody.map -Filter '@kija-body' -EvidenceDir Tests/Pickle/Inbox/kija-body
+brrainz.harmony 2009463077
+nelim.pickletools.colonistrace path:PickleTools/ColonistRace/Mod
+nelim.pickletools.camerazoom path:PickleTools/CameraZoom/Mod
+ray1203.SimpleCameraSetting 3232415388
+nelim.pickletools.screenshotstudio path:PickleTools/ScreenshotStudio/Mod
+nelim.pickletools.clickdiagnostics path:PickleTools/ClickDiagnostics/Mod
+nelim.biotechbodies path:BiotechBodies/Mod
