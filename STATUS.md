@@ -6,7 +6,7 @@ remote: https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Kija-Renew.git
 local_path: C:\Users\nelim\Documents\rimworld\CreaturesOfKiKijaRenew
 visibility: public
 detached: yes
-workflow_stage: writeTests[1.0.0]
+workflow_stage: playTests[1.0.0]
 licence: open
 licence_spdx: MIT
 licence_at: "2026-11-12: MIT, copyright 2020 Mlie, in LICENSE of the upstream repository (emipa606/CreaturesOfKi, archived 2024-04-25) and in LICENSE.md of Workshop 2726461020; the source declares 1.4 and nothing further, so it is not alive in the latest version; MIT permits redistribution with the notice, which ships in LICENSE and Mod/LICENSE"
@@ -25,6 +25,7 @@ published: no
 tested_on: "2026-11-14 pickle 6629 on 85d744f (loads and Kija body only; pawn kinds, factions, head, tail, French labels not played)"
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
+  - "2026-11-14: writeTests left at 71c9a12 (AUDIT 7): 7.a functional scenarios by behavior in Tests/Pickle/README.md; 7.b/7.c shared offline checks replayed on this tree with Run-OfflineChecks.ps1 -AlsoScan ../BiotechBodies/Mod: 8 of 10 ok, ModBasics 2 expected findings (BiB has no steamWorkshopUrl until its release, Preview.png comes at mountPreview), XmlFields ok with -ExtraAssemblies BiotechBodies.dll (fails without it: BodyLookExtension unknown, expected), XmlClasses skipped (no game type list); no local script, so no Rule-OwnValues.ps1 and no Test-Mod.ps1 (generator needs the 0.1.0 prepublication, AUDIT 7.b); 7.d Pickle suites 01 to 06 written, six features, map wsl-deps.kijabody.map, no local step; 01 and 02 played green (ticket 6629), 03 to 06 not played yet. Nothing pushed, on purpose (BiB unpublished). Next at playTests: 8.0 ecosystem refresh by PiI, then tickets for 03 and 05 and 06 (English), 04 (French), one small ticket each"
   - "2026-11-14: ticket 6629 (kija body 85d744f, filter @kija-body, map wsl-deps.kijabody.map) GREEN: 5 passed, 0 failed, exitReason passed (summary.json). Mod and xenotype load clean; Female Kija drawn from Things/Kija/Body/Naked_Female, Thin from Naked_Thin, Male and Hulk keep the vanilla Naked_Male and Naked_Hulk. Captures read (after-Female, after-Thin, before-Female): Kija fawn body drawn, vanilla body not visible, no tint seen; read on 3 of 8 captures only, not a pixel check. Proof minified in Tests/Pickle/Evidence/kija-body (RELEASE.md). Tests/Pickle holds 01-loads and 02-kija-body. This proves the body texture only: head size, tail and chest offsets, pawn kinds, factions, French labels stay unplayed. BiB green on its side (C1 BodyLookExtension, its ticket 51f3 on e3e7df5, 2026-11-14), BiB not published, no date. DLC rule of 2026-11-14 checked: no DLC word in the French, English names Biotech and Royalty kept. PiI found no translation of the original: nothing to integrate (refresh at playTests, AUDIT 8.0)"
   - "2026-11-12: unpushed: all local commits since origin/main (22 on 2026-11-14) not pushed on purpose: public repo would reference unpublished BiB; push at BiB release unless the owner says earlier. 2026-11-12: unverified: Kija body in XML, not played (ticket 6629 above); owner: continue other stages in parallel, only our release depends on BiB release: GeneDef Kija_Body (BiotechBodies.BodyLookExtension, Female + Thin paths Things/Kija/Body/Naked_<type>, exclusionTag BiB_BodyLook) in Xenotype Kija; About: modDependencies + loadAfter nelim.biotechbodies. BiB (local_1d89a27b, owner yes 2026-11-12) not published, adds test and replays: do not ship before its green report and its release. No Child/Baby textures (game graphic kept). To check in game with Pickle: no vanilla body peeking out, tint white"
   - "2026-11-12: unverified: pawn kinds (13), factions (KijaOutcast, KijaColonyPlayer) and the Royalty Empire patch converted from the original (race Human + xenotypeSet Kija 999); HAR-only parts dropped (apparel whitelist, gene blacklists, KijaSettings weights); settings of wanderers, refugees, slaves, starting colonists to be decided; nothing played"
@@ -32,7 +33,7 @@ remaining:
   - "2026-11-12: unverified: French pawn kind labels are masculine (no labelFemale): check the render in game at playTests, add labelFemale only if a woman shows a masculine title"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-14
-protocols_read_sha: e09e95be3af78b603234a105949d03f805d8ac1b
+protocols_read_sha: 8f5bd2ee32bbbe88cd98fa2ccad3b5672ae01206
 ---
 
 # Creatures of Ki: Kija Renew: status
