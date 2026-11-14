@@ -31,7 +31,7 @@ remaining:
   - "2026-11-12: unverified: French pawn kind labels are masculine (no labelFemale): check the render in game at playTests, add labelFemale only if a woman shows a masculine title"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-13
-protocols_read_sha: 61aebffdd2790f3f440cd90488973b8705718c8a
+protocols_read_sha: e09e95be3af78b603234a105949d03f805d8ac1b
 ---
 
 # Creatures of Ki: Kija Renew: status
