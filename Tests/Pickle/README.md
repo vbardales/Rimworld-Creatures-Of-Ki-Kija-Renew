@@ -8,7 +8,7 @@ Development only, never published. Layout after `PickleTools/docs/AUTHORING.md`:
 
 | Pass | Map | Filter | What it establishes |
 |---|---|---|---|
-| Kija body | `wsl-deps.kijabody.map` | `@kija-body` | The mod loads clean (`01-loads`). A Kija colonist is drawn from the Kija body textures through Biotech Bodies: Female and Thin from `Things/Kija/Body/`, Male and Hulk keep the vanilla body (`02-kija-body`). |
+| Kija body | `wsl-deps.kijabody.map` | `@kija-body` | The mod loads clean (`01-loads`). A Kija colonist is drawn from the Kija body textures through Biotech Bodies: Female, Thin, Male (Naked_Thin) and Hulk (Naked_Female) from `Things/Kija/Body/`, to judge on the captures (`02-kija-body`). |
 
 | Kija kinds | `wsl-deps.kijabody.map` | `@kija-kinds` | A pawn generated from `Colonist_Kija` and from `Kija_Warrior` is a Human of the Kija xenotype holding `Kija_Head` and `Kija_Body` (`05-pawn-kinds`). |
 | Kija looks | `wsl-deps.kijabody.map` | `@kija-looks` | `@review` captures of a Kija woman and man facing South, East and North: head size, tail and chest offsets, skin (`06-looks`). |

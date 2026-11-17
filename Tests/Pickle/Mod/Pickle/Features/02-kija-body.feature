@@ -2,8 +2,8 @@
 Feature: a Kija colonist is drawn with the Kija body textures through Biotech Bodies
 
   # The gene Kija_Body (Mod/Defs/GeneDefs/Genes_Kija.xml) carries a BiotechBodies.BodyLookExtension: Female is drawn
-  # from Things/Kija/Body/Naked_Female, Thin from Things/Kija/Body/Naked_Thin. Male and Hulk are not listed, so the
-  # game keeps the vanilla body for them. The body type stays the pawn's own: it is set with a gene after the
+  # from Things/Kija/Body/Naked_Female, Thin from Things/Kija/Body/Naked_Thin. Male is drawn from Naked_Thin and Hulk from Naked_Female (no Kija
+  # texture of their own, 2026-11-17: BiB confirmed the path is not tied to the body type). The body type stays the pawn's own: it is set with a gene after the
   # xenotype, because the genes choose the body type whenever one is added or removed. No texture mod is loaded, so
   # the vanilla paths are the baseline. Model: BiotechBodies/Tests/Pickle/Mod/Pickle/Features/15-custom-body.feature
   # (green, ticket 51f3). Not asserted here and read on the captures: no vanilla body peeking out, white tint.
@@ -50,5 +50,5 @@ Feature: a Kija colonist is drawn with the Kija body textures through Biotech Bo
       | type | gender | path                                    |
       | Female | Female | Things/Kija/Body/Naked_Female           |
       | Thin | Female | Things/Kija/Body/Naked_Thin             |
-      | Male | Male   | Things/Pawn/Humanlike/Bodies/Naked_Male |
-      | Hulk | Female | Things/Pawn/Humanlike/Bodies/Naked_Hulk |
+      | Male | Male   | Things/Kija/Body/Naked_Thin             |
+      | Hulk | Female | Things/Kija/Body/Naked_Female           |

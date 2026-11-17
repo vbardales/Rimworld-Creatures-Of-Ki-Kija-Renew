@@ -26,6 +26,14 @@
             <bodyType>Thin</bodyType>
             <path>Things/Kija/Body/Naked_Thin</path>
           </li>
+          <li>
+            <bodyType>Male</bodyType>
+            <path>Things/Kija/Body/Naked_Thin</path>
+          </li>
+          <li>
+            <bodyType>Hulk</bodyType>
+            <path>Things/Kija/Body/Naked_Female</path>
+          </li>
         </bodyPaths>
       </li>
     </modExtensions>
