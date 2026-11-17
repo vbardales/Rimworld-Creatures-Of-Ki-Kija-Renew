@@ -25,6 +25,7 @@ published: no
 tested_on: "2026-11-14 pickle 6629 on 85d744f (loads and Kija body only; pawn kinds, factions, head, tail, French labels not played)"
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
+  - "2026-11-17: replay of the chain (ledger 74 rows, 53 done, 13 n/a): stage playTests unchanged; open at playTests: 8.d captures read 3 of 6 looks and 3 of 8 body, 8.f and 8.g Royalty Empire patch not played (KijaOutcast hostility), 8.i Player.log not read, 8.k masculine kind labels on a woman and Kija male torso texture (owner), 8.l Docs/runs has no run lines, 8.m code review not done (no code_review_sha), then 8.n"
   - "2026-11-15: ticket b026 (labels FR, cb46ec9) GREEN 14 of 14, exitReason passed: xenotype, 11 pawn kinds and 2 factions read as expected in a game started in French (04-labels-fr), accents included (the garbling seen in the 7aaa report was the report encoding, not the files). Masculine kind labels not judged on a woman: no capture yet. Proof in Tests/Pickle/Evidence/labels-fr. All six features of Tests/Pickle now played green"
   - "2026-11-15: ticket 9654 (labels EN, cb46ec9) GREEN 15 of 15, exitReason passed: xenotype Kija, gene Kija_Body, 11 pawn kinds and 2 factions read as expected in English (03-labels-en). Proof in Tests/Pickle/Evidence/labels-en. Labels FR b026 still queued"
   - "2026-11-15: ticket 2b34 (kinds and looks, cb46ec9) GREEN 8 of 8, exitReason passed: Colonist_Kija and Kija_Warrior generate a Human of xenotype Kija holding Kija_Head and Kija_Body; 6 looks captures (woman and man, South East North) read on 3 of 6 (Female-East, Male-North, Male-South): Kija head with ears and mane, tail visible in profile, spotted fawn body on the woman. Seen: the Kija MAN keeps the pale vanilla body (Male is not in Kija_Body bodyPaths, only Female and Thin), so a Kija man has a Kija head and a vanilla torso; to ask Virginie if a Male and Hulk Kija texture is wanted. Chest and head size not judged at this zoom. Proof in Tests/Pickle/Evidence/kija-looks. Labels EN 9654 and FR b026 still queued"
@@ -35,7 +36,7 @@ remaining:
   - "2026-11-12: unverified: head draw size (original 0.7 customHeadDrawSize), tail and chest offsets, gene icons and xenotype icon (vanilla placeholders), tools (original fists 10 and bite 12 not carried: a gene cannot set tools), hunger rate 0.7 not carried; all to check in game with Pickle"
   - "2026-11-12: unverified: French pawn kind labels are masculine (no labelFemale): check the render in game at playTests, add labelFemale only if a woman shows a masculine title"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
-updated: 2026-11-14
+updated: 2026-11-17
 protocols_read_sha: 882a30c086dbc69328319f08fef5c7779b1f298c
 ---
 
