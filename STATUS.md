@@ -25,7 +25,7 @@ published: no
 tested_on: "2026-11-14 pickle 6629 on 85d744f (loads and Kija body only; pawn kinds, factions, head, tail, French labels not played)"
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
-  - "2026-11-17: ticket dc9d filed (kija body male hulk, c4b12ed, filter @kija-body, map wsl-deps.kijabody.map, Inbox Tests/Pickle/Inbox/kija-body-mh), waiting. Change: Kija_Body bodyPaths now map Male to Naked_Thin and Hulk to Naked_Female (BiB read its CustomBody.cs: the path is not tied to the body type, a type with no entry keeps the vanilla graphic; BiB has no option for it; a fallbackPath key in BodyLookExtension would be a BiB change, only with owner agreement). Not proved: the Thin texture on a Male pawn (silhouette under Male clothes). On the result: read summary.json and the Male and Hulk captures; if the look is poor, ask the owner (own art or BiB fallbackPath). Replaces the open question on the Male texture of 2b34. 02-kija-body expectations updated for Male and Hulk"
+  - "2026-11-17: ticket dc9d (kija body male hulk, c4b12ed) GREEN 5 of 5, exitReason passed: Male Kija drawn from Naked_Thin, Hulk from Naked_Female (summary.json). Captures after-Male and after-Hulk read: Kija fawn spotted torso under the blue clothes on the Male, fawn body on the Hulk, no vanilla body visible; Thin texture on a Male silhouette looks acceptable at this zoom, no owner decision needed unless she dislikes it. Proof summary in Tests/Pickle/Evidence/kija-body (summary.json replaced), Inbox run deleted. Replaces the open question on the Male texture of 2b34. Still open at playTests: see the 2026-11-17 replay line"
   - "2026-11-17: replay of the chain (ledger 74 rows, 53 done, 13 n/a): stage playTests unchanged; open at playTests: 8.d captures read 3 of 6 looks and 3 of 8 body, 8.f and 8.g Royalty Empire patch not played (KijaOutcast hostility), 8.i Player.log not read, 8.k masculine kind labels on a woman and Kija male torso texture (owner), 8.l Docs/runs has no run lines, 8.m code review not done (no code_review_sha), then 8.n"
   - "2026-11-15: ticket b026 (labels FR, cb46ec9) GREEN 14 of 14, exitReason passed: xenotype, 11 pawn kinds and 2 factions read as expected in a game started in French (04-labels-fr), accents included (the garbling seen in the 7aaa report was the report encoding, not the files). Masculine kind labels not judged on a woman: no capture yet. Proof in Tests/Pickle/Evidence/labels-fr. All six features of Tests/Pickle now played green"
   - "2026-11-15: ticket 9654 (labels EN, cb46ec9) GREEN 15 of 15, exitReason passed: xenotype Kija, gene Kija_Body, 11 pawn kinds and 2 factions read as expected in English (03-labels-en). Proof in Tests/Pickle/Evidence/labels-en. Labels FR b026 still queued"
@@ -38,7 +38,7 @@ remaining:
   - "2026-11-12: unverified: French pawn kind labels are masculine (no labelFemale): check the render in game at playTests, add labelFemale only if a woman shows a masculine title"
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-17
-protocols_read_sha: 5469b4aaffb6a72d0eedf4552af8972e555d9cdd
+protocols_read_sha: f2087a01b9b3d5ce3e0ec68580f7716eab3ccc81
 ---
 
 # Creatures of Ki: Kija Renew: status
