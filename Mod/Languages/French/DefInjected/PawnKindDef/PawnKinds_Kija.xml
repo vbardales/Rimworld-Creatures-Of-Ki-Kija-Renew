@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <VillagerKija.label>villageois</VillagerKija.label>
+  <VillagerKija.labelFemale>villageoise</VillagerKija.labelFemale>
   <Town_GuardKija.label>garde de la ville</Town_GuardKija.label>
+  <Town_GuardKija.labelFemale>garde de la ville</Town_GuardKija.labelFemale>
   <Kija_Trader.label>marchand kija</Kija_Trader.label>
+  <Kija_Trader.labelFemale>marchande kija</Kija_Trader.labelFemale>
   <Kija_Leader.label>chef de la ville</Kija_Leader.label>
+  <Kija_Leader.labelFemale>cheffe de la ville</Kija_Leader.labelFemale>
   <Colonist_Kija.label>colon</Colonist_Kija.label>
+  <Colonist_Kija.labelFemale>colone</Colonist_Kija.labelFemale>
   <Kija_Protector.label>protecteur kija</Kija_Protector.label>
+  <Kija_Protector.labelFemale>protectrice kija</Kija_Protector.labelFemale>
   <Kija_Ranger.label>rôdeur kija</Kija_Ranger.label>
+  <Kija_Ranger.labelFemale>rôdeuse kija</Kija_Ranger.labelFemale>
   <Kija_Defender.label>défenseur kija</Kija_Defender.label>
+  <Kija_Defender.labelFemale>défenseuse kija</Kija_Defender.labelFemale>
   <Kija_Veteran.label>vétéran kija</Kija_Veteran.label>
+  <Kija_Veteran.labelFemale>vétérane kija</Kija_Veteran.labelFemale>
   <Kija_Warrior.label>guerrier kija</Kija_Warrior.label>
+  <Kija_Warrior.labelFemale>guerrière kija</Kija_Warrior.labelFemale>
   <Kija_Cleanser.label>purificateur kija</Kija_Cleanser.label>
+  <Kija_Cleanser.labelFemale>purificatrice kija</Kija_Cleanser.labelFemale>
 </LanguageData>
