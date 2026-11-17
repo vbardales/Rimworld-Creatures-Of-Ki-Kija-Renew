@@ -2,6 +2,10 @@
 <LanguageData>
   <KijaOutcast.label>Parias kijas</KijaOutcast.label>
   <KijaOutcast.description>Un groupe de parias kijas.</KijaOutcast.description>
+  <KijaOutcast.pawnSingular>Kija</KijaOutcast.pawnSingular>
+  <KijaOutcast.pawnsPlural>Kijas</KijaOutcast.pawnsPlural>
   <KijaColonyPlayer.label>Nouvelle Kija</KijaColonyPlayer.label>
   <KijaColonyPlayer.description>Une colonie kija bien à soi.</KijaColonyPlayer.description>
+  <KijaColonyPlayer.pawnSingular>colon</KijaColonyPlayer.pawnSingular>
+  <KijaColonyPlayer.pawnsPlural>colons</KijaColonyPlayer.pawnsPlural>
 </LanguageData>

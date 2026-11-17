@@ -10,6 +10,7 @@
       <li>(0.66, 0.45, 0.33)</li>
       <li>(0.35, 1, 0.66)</li>
     </colorSpectrum>
+    <basicMemberKind>VillagerKija</basicMemberKind>
     <pawnSingular>Kija</pawnSingular>
     <pawnsPlural>Kija</pawnsPlural>
     <xenotypeSet Inherit="False">

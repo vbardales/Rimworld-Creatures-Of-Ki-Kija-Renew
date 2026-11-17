@@ -3,8 +3,8 @@
   <XenotypeDef>
     <defName>Kija</defName>
     <label>Kija</label>
-    <description>A gentle, docile people who look much like humanoid deer. Industrious at farming and at handling animals, they would not hold up much of a fight.</description>
-    <descriptionShort>A docile, deer-like people, industrious but fragile.</descriptionShort>
+    <description>A gentle, docile people who look much like humanoid deer. Industrious and quick on their feet, they have a light frame and live about sixty years.</description>
+    <descriptionShort>A docile, deer-like people, industrious and quick.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
     <inheritable>true</inheritable>
     <displayPriority>500</displayPriority>

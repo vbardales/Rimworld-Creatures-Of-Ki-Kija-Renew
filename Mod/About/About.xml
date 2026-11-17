@@ -12,6 +12,10 @@
       <packageId>nelim.biotechbodies</packageId>
       <displayName>Biotech Bodies</displayName>
     </li>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
   </modDependencies>
   <loadAfter>
     <li>Ludeon.RimWorld</li>

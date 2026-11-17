@@ -166,7 +166,7 @@
   <GeneDef>
     <defName>Kija_Constitution</defName>
     <label>Kija constitution</label>
-    <description>Carriers of this gene have the Kija's light frame: a little less health, a lower appetite, and a fur coat that suits cold weather better than heat. They live about sixty years.</description>
+    <description>Carriers of this gene have the Kija's light frame: they move faster, and their fur coat suits cold weather better than heat, though it burns more easily. They live about sixty years.</description>
     <displayCategory>Miscellaneous</displayCategory>
     <displayOrderInCategory>100</displayOrderInCategory>
     <iconPath>UI/Icons/Genes/Gene_Delicate</iconPath>
