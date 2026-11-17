@@ -41,7 +41,7 @@ remaining:
   - "2026-11-12: unverified: tell the Teshi session its backlog item Teshi people as Biotech xenotype moved here"
 updated: 2026-11-17
 code_review_sha: b86c4e30beb16d3ed30dca3de42e36831a13b930
-protocols_read_sha: 1e7080d0742c4f6411f38c8350606baa18950ad9
+protocols_read_sha: 161d23ea994de6aab35c3cabe5af940316d80e1b
 ---
 
 # Creatures of Ki: Kija Renew: status
