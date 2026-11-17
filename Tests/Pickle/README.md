@@ -17,10 +17,10 @@ Development only, never published. Layout after `PickleTools/docs/AUTHORING.md`:
 
 Functional scenarios by promised behavior (`AUDIT.md` 7.a): Kija xenotype and its genes (`01`, `05`), Kija body through
 Biotech Bodies (`02`), looks (`06`), pawn kinds (`05`), factions (`01`, `03`, `04`: existence and label; a faction
-spawning in a world is the game's own behavior and is not tested), Royalty Empire patch (not played: `OptionalCompat`
-is checked offline and Royalty is not staged). Settings and spawn weights: none (`settings_audit: not_applicable`).
+spawning in a world is the game's own behavior and is not tested), Royalty Empire patch (`07`: the patched list of
+`FactionDef` Empire holds both Kija factions; Royalty is a DLC staged by default). Settings and spawn weights: none (`settings_audit: not_applicable`).
 
-No optional integration pass: the mod's only optional patch (Royalty Empire) holds no behavior that a scenario reads.
+One optional integration pass: Royalty Empire, `@kija-empire`, `wsl-deps.kijabody.map` (def level, hostility in a world not tested).
 No DLC-absent pass: Biotech is a hard requirement. French labels are read in game at `playTests` with `-Language French`.
 
 ## Command
