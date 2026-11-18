@@ -29,7 +29,7 @@
 #   Decor: Brazier lit, Plant_Daylily ring fully grown (no torch ring).
 # 6 kija-6-departure | MEDIUM-WIDE (closing) | statue-garden (155,99) zoom 9 | 18:00 Clear | +11h | Subject: the guests leave without the crate. Says: they
 #   leave at golden hour, tails and ears in warm rim light, back views up the path; Nelim in profile at the edge watching. Mirrors shot 1.
-#   Decor: Plant_Rose, the garden lanterns. No sun-glow step: the hour 18 gives the light.
+#   Decor: Plant_Rose x4 and Plant_Daylily x4 fully grown along the path, TorchLamp x2 lit at the path bend, the statues and lanterns of the garden. No sun-glow step: the hour 18 gives the light.
 # 7 kija-7-genes | INTERFACE, no subtitle | window-backdrop-for-height, cropped | Genes tab or xenotype window of Fenn (Kija_Head, Kija_Body, Kija_Tail,
 #   Kija_Chest, Kija_Constitution). Needs an NPT step that opens it (asked).
 # Series: sizes wide 10, medium 6.8, medium-wide 9, close 4.5, medium 8, medium-wide 9. Check 1, 3, 6 at 268 px (ffmpeg scale=268:-1) for the ears and tail.
