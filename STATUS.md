@@ -47,7 +47,7 @@ remaining:
   - "2026-11-18 PENDING TEST, tree intentionally dirty: ticket a2af (kija fur-test vanilla FurCovered, filter @kija-fur-test, map wsl-deps.kijabody.map, Evidence dir Tests/Pickle/Inbox/kija-fur-test) tests the vanilla grey fur bodies for the Kija body (owner order). Uncommitted until RUN_DONE: Mod/Defs/GeneDefs/Genes_Kija.xml (4 bodyPaths set to Things/Pawn/Humanlike/Bodies/FurCovered_<type>) and Tests/Pickle/Mod/Pickle/Features/08-kija-fur-test.feature. At RUN_DONE: read summary.json, open furtest-after-* captures, show the owner, then git checkout Mod/Defs/GeneDefs/Genes_Kija.xml and delete the 08 feature (never commit them), then triage Inbox. Owner open choice: redraw the 6 Kija body PNGs with cream fur, or keep vanilla grey fur; BiB ships no textures; Furskin gene is a body swap that forces vanilla heads, not an overlay"
 updated: 2026-11-18
 code_review_sha: b86c4e30beb16d3ed30dca3de42e36831a13b930
-protocols_read_sha: 2b16552b1c489cd8537d600a08630cb582a11b68
+protocols_read_sha: 113f53ea8c2130a1425348e87f66394898f2e328
 ---
 
 # Creatures of Ki: Kija Renew: status
