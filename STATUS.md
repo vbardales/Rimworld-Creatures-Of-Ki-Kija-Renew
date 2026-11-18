@@ -46,7 +46,7 @@ remaining:
   - "2026-11-18: BiB answer (not a BiB effect): CustomBody draws the PNG as is, white tint, no fur layer; WDI does not touch Things/Kija/Body so identical captures are correct. Checked: Male maps to Naked_Thin and Hulk to Naked_Female, both textures exist (3 files each), so no silent fallback; Naked_Female_south.png itself is cream with spots, no fur texture. The fur question is the art, the owner decides"
 updated: 2026-11-18
 code_review_sha: b86c4e30beb16d3ed30dca3de42e36831a13b930
-protocols_read_sha: 6ffe26641372a55fb2f825b5324dfe8fcd9632fb
+protocols_read_sha: 2b16552b1c489cd8537d600a08630cb582a11b68
 ---
 
 # Creatures of Ki: Kija Renew: status
