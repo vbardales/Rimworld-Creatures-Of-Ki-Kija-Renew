@@ -75,3 +75,26 @@ the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, 
 2026-11-14 refresh at playTests (AUDIT 8.0, PiI, protocols 664d1c6): 15 queries over 2 to 3 pages, 1398 items, matched on titles and descriptions, plus a local scan of Workshop XML. Still no translation of the original in any language (nothing to integrate, AUDIT 6.c), no patch, no retexture, no CE patch, no other Kija race. Only the original 2726461020 and our Teshi Renew mention Ki or Kija. Comments of the original (27): one asks Royalty compatibility for the permanently hostile Kija faction, one a CE patch; nothing linked. Nothing subscribed. Open point for us: KijaOutcast hostility and Royalty (Patches/Royalty_Empire.xml), to check at playTests.
 
 2026-11-17 refresh requested by CoKK (PiI, report rev 8b8a75c, `../docs/inventory/ecosystem-steam/CreaturesOfKiKijaRenew.md`, ecosystem-links block added): parent 2726461020 (Creatures of Ki Continued, tags 1.0 to 1.4, dead for 1.6); linked 3806709627 (Teshi Renew, tags 1.6 1.7). No translation, patch, retexture, fork or other Kija race. Royalty compatibility patch for the Kija factions: none on Steam, only the request in the original's comments, so our own Patches/Royalty_Empire.xml stays untested (8.f). Shooki's 1726422863 not readable (removed or hidden). Verdict unchanged: the mod goes on; nothing to integrate at localize.
+
+## NSB
+
+2026-11-19 sync (first, at writeShotlist). NSB docs last changed 2026-11-18 (plan to rebuild the save as Nelims-tribe-v2: places and decor may move). Rules of 2026-11-05 applied: NSB places, colonists, animals free; a colonist outside NSB and any change of colonist properties need the owner's express validation; outfits free; every animal the mod includes must be shown. NSB has no Kija or deer colonist. The mod adds no animal. Nothing in the mod's files changed by this sync (no shotlist yet).
+
+Places read: 2026-11-19 Tribe read: 2026-11-19 Steps read: 2026-11-19
+
+| Place | Shots that use it | Changes for the gallery | Last read |
+|---|---|---|---|
+| candidates only, no shot written yet: emerald-clearing (group portrait), terrace, rice-paddies or cotton-field (work), hut (tea-room), water-garden or left-bank (wide) | none yet | none | 2026-11-19 |
+
+| Colonist | Shots | Outfit per shot | Last read of profile | Exceptions |
+|---|---|---|---|---|
+| Nelim (protagonist, Human) | none yet | to write in the shotlist | roster 2026-11-19 | none |
+| Kija guests (anonymous, kind Colonist_Kija, xenotype Kija, created by the scenario and removed after) | none yet | to write | not in NSB | outside NSB: PENDING owner validation (rule 2); no scenario before the answer |
+
+| Animal | Shots | Outfit | Last read | Exceptions |
+|---|---|---|---|---|
+| none planned (NSB thrumbos, Shogun, Yuki optional as background) | none | none | catalogue 2026-11-19 | none |
+
+| Included animal (rule 5) | Shots |
+|---|---|
+| none: the mod adds no animal | n/a |
