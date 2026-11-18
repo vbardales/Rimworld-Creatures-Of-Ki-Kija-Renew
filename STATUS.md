@@ -89,7 +89,7 @@ Places read: 2026-11-19 Tribe read: 2026-11-19 Steps read: 2026-11-19
 | Colonist | Shots | Outfit per shot | Last read of profile | Exceptions |
 |---|---|---|---|---|
 | Nelim (protagonist, Human) | none yet | to write in the shotlist | roster 2026-11-19 | none |
-| Kija guests (anonymous, kind Colonist_Kija, xenotype Kija, created by the scenario and removed after) | none yet | to write | not in NSB | outside NSB: PENDING owner validation (rule 2); no scenario before the answer |
+| Kija guests (anonymous, kind Colonist_Kija, xenotype Kija, created by the scenario and removed after) | none yet | to write | not in NSB | outside NSB: VALIDATED by the owner 2026-11-19 ("ok pour 3 Kija"): 3 anonymous Kija guests, a woman (Female body), a man (Male, drawn from Naked_Thin), a thin silhouette (Thin), all kind Colonist_Kija, xenotype Kija, no NSB name, removed after each shot; Nelim stays Human, no property of hers changed |
 
 | Animal | Shots | Outfit | Last read | Exceptions |
 |---|---|---|---|---|
@@ -98,3 +98,19 @@ Places read: 2026-11-19 Tribe read: 2026-11-19 Steps read: 2026-11-19
 | Included animal (rule 5) | Shots |
 |---|---|
 | none: the mod adds no animal | n/a |
+
+## Shotlist
+
+2026-11-19 (full lines in the header of `Tests/Pickle/Mod/Pickle/Features/08-gallery.feature`; Opus director pass done: kept the box thread, the forced-walk gestures, the zoom spread, the close shot, the departure shot, Nelim in indigo; dropped the pour and read-seated poses, the torch ring and the stools). Story "Market day": three validated Kija guests bring a Milk crate to Nelim, 07:00 to 18:00.
+
+| # | Shot | Place, zoom, hour | Subject | Size |
+|---|---|---|---|---|
+| 1 | kija-1-arrival | water-garden, 10, 07:00 | guests arrive with the crate | wide (opening) |
+| 2 | kija-2-offer | terrace, 6.8, 09:00 | Fenn offers the crate to Nelim | medium |
+| 3 | kija-3-rice | rice-paddies, 9, 11:00 | Bram harvests rice (NPT step asked) | medium-wide |
+| 4 | kija-4-book | hut, 4.5, 13:00 | Wisp takes a book | close |
+| 5 | kija-5-trade | emerald-clearing, 8, 16:00 | Bram hands the crate to Nelim | medium |
+| 6 | kija-6-departure | statue-garden, 9, 18:00 | guests leave, tails in warm light | medium-wide (closing) |
+| 7 | kija-7-genes | window-backdrop-for-height | Genes window of Fenn (NPT step asked) | interface, no subtitle |
+
+Plan score: see below once `score-gallery` has run. Open: NPT answer (harvest step, genes window step, Novel as carried item), Cat photos of the VAE clothes (PiT set kija-village-clothes), face parts of the guests.
