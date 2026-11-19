@@ -6,7 +6,7 @@ remote: https://github.com/vbardales/Rimworld-Creatures-Of-Ki-Kija-Renew.git
 local_path: C:\Users\nelim\Documents\rimworld\CreaturesOfKiKijaRenew
 visibility: public
 detached: yes
-workflow_stage: writeShotlist[1.0.0]
+workflow_stage: shootGallery[1.0.0]
 licence: open
 licence_spdx: MIT
 licence_at: "2026-11-12: MIT, copyright 2020 Mlie, in LICENSE of the upstream repository (emipa606/CreaturesOfKi, archived 2024-04-25) and in LICENSE.md of Workshop 2726461020; the source declares 1.4 and nothing further, so it is not alive in the latest version; MIT permits redistribution with the notice, which ships in LICENSE and Mod/LICENSE"
@@ -22,9 +22,10 @@ dependencies: complete
 workshop: none
 workshop_required_items: n/a, not released yet
 published: no
-tested_on: "2026-11-14 pickle 6629 on 85d744f (loads and Kija body only; pawn kinds, factions, head, tail, French labels not played)"
+tested_on: "2026-11-18 pickle 249c on 7a9b2a1 (FR 28/28) and 7d0b (EN 18/18), Mod tree unchanged since b86c4e3"
 maintainer: Claude Code, the session that holds this standalone repository
 remaining:
+  - "2026-11-19 replay: stage shootGallery, first open 9.a. Ticket ad56 (gallery 1 to 6) 1 pass 5 fail: kija-1 no cell takes TorchLamp near (163,175); kija-2 (193,123) holds Shelf; kija-3 undefined step Nelim Pickle Tools: time is paused for the capture; kija-4 no DR_StickLantern at (139,72); kija-6 (159,102) holds IncenseShrine; kija-5 passed, capture unread. Probe 0f8b green, face-probe-fenn screenshot unread (is Bald hiding ears and mane). Inbox runs face-probe2, face-probe2-1, gallery-1-6 to triage. Then 9.b to 9.f, 9.e bis"
   - "2026-11-19: owner saw the looks and approved them (8.d closed). Fur question settled: original HAR mod had no fur layer, the fawn spotted PNG (Naked_Female, Naked_Thin) is the fur; vanilla FurCovered test (a2af) rejected. BiB answered 2026-11-19: bodyPaths of a gene are applied first (code, 1.0.0), so our PNGs win on listed types with or without WDI; WDI is a mod, never takes over a Kija_Body pawn on a listed type; keep exclusionTag BiB_BodyLook on Kija_Body; Fat not listed keeps the game graphic (vanilla, or plain WDI Fat), FurCovered_Fat is design only (1.1.0), to get Fat art list Fat in bodyPaths; KijaWdi needs nothing from BiB (own gene with BodyLookExtension.bodyPaths), optional fallbackPath only if the owner asks. VTW answered 2026-11-19 (it never made body art, only garments): WDI bodies are 512x512 RGBA flat PNG, <Skin>_<Body>_<south|east|north>.png, 8 adult keys (Male Female Thin Thin_Female Hulk Hulk_Female Fat Fat_Female) + Child, FurCovered_<Body> is the fur precedent, WDI has no Defs (path replacement, Female Body Variants gives the _Female keys), WDI pixels have no licence so only our own painted fur may ship, no simple resize (Kija proportions differ, fur needs a re-warp per body); details in VenusTouchWaistlines Docs/WDI-ASSETS.md and Docs/GARMENT-FIT-PROCESS.md, BiB_VanillaBody doc in SanctuaryBacklot/Docs/VTW-BODYTYPES.md. Nothing open here, KijaWdi is the owner idea, not started"
   - "2026-11-18: 8.i Player.log read for 7d0b (EN, 18/18) and 249c (FR, 28/28 passed, exitReason passed) on 7a9b2a1: 0 exception, 0 mod error in both; only vanilla WARN (hidden ritual precept, map version 1.6.4633 vs 4871), dependency URL WARN and the expected test-mod ERROR. 8.i closed, Inbox runs moved to Evidence (log-en, log-fr, no RELEASE.md condition yet). 8.l: run lines in Docs/runs/pickle.md. Next: 8.n (leave playTests), owner view of the looks (8.d) still asked. 8.k closed (837e green, labelFemale), 8.f 8.g closed (5d34), 8.m closed on 7a9b2a1"
   - "2026-11-17: 8.d captures read. Looks (kija-looks, cb46ec9) 6 of 6: Female-South head with large ears and mane tuft, spotted fawn torso; Female-North ears, mane, spotted back and a small cream tail tuft; Male-East profile with spotted ear and mane, torso pale like vanilla (run predates the c4b12ed fix that draws Male from Naked_Thin, see dc9d). Body (kija-body) after captures 4 of 4 (Female, Thin, Male, Hulk): Kija fawn body on each, no vanilla torso peeking out; Thin is narrow and spotted. Chest and head size not judged at this zoom. No defect seen; the 8.d question left is the owner view of the looks. Still open: 8.i Player.log, 8.l Docs/runs lines, then 8.n"
@@ -47,7 +48,7 @@ remaining:
   - "2026-11-18: ticket a2af (kija fur-test, vanilla FurCovered_<type> as bodyPaths) GREEN 4 of 4, exitReason passed. Captures furtest-after-Female and -Male read: body drawn white with fluff marks (vanilla fur body, no spots, no fawn), head unchanged brown. Test files reverted (Genes_Kija.xml checkout, feature 08 deleted), never committed; tree clean. Owner answered (2026-11-19): original mod had no fur layer, the fawn spotted PNG is the fur, so keep our PNGs. Run deleted from Inbox (throwaway test, proof not on current Mod/)"
 updated: 2026-11-19
 code_review_sha: b86c4e30beb16d3ed30dca3de42e36831a13b930
-protocols_read_sha: 4d1e2f7c6ebdb5388a58a563538bc1d56dc0f6d9
+protocols_read_sha: ea648c4cf17b534e70d252d3f18e9fe57d4a8e2d
 ---
 
 # Creatures of Ki: Kija Renew: status
