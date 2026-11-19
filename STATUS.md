@@ -46,6 +46,7 @@ remaining:
   - "2026-11-18: tickets b1b0 (vanilla) and e3f9 (WDI 3527486510) both GREEN 11/11 on 23364b7. Captures Female-South and Male-South read on both: identical, pale cream body (spots on the woman, smooth on the man), brown head, no fur coat on the body in either. WDI changes nothing visible. To show Virginie side by side (Evidence/kija-vanilla and Evidence/kija-wdi screenshots); 8.n waits for her view of the looks"
   - "2026-11-18: BiB answer (not a BiB effect): CustomBody draws the PNG as is, white tint, no fur layer; WDI does not touch Things/Kija/Body so identical captures are correct. Checked: Male maps to Naked_Thin and Hulk to Naked_Female, both textures exist (3 files each), so no silent fallback; Naked_Female_south.png itself is cream with spots, no fur texture. The fur question is the art, the owner decides"
   - "2026-11-18: ticket a2af (kija fur-test, vanilla FurCovered_<type> as bodyPaths) GREEN 4 of 4, exitReason passed. Captures furtest-after-Female and -Male read: body drawn white with fluff marks (vanilla fur body, no spots, no fawn), head unchanged brown. Test files reverted (Genes_Kija.xml checkout, feature 08 deleted), never committed; tree clean. Owner answered (2026-11-19): original mod had no fur layer, the fawn spotted PNG is the fur, so keep our PNGs. Run deleted from Inbox (throwaway test, proof not on current Mod/)"
+ecosystem_line: 1.0
 updated: 2026-11-19
 code_review_sha: b86c4e30beb16d3ed30dca3de42e36831a13b930
 protocols_read_sha: ea648c4cf17b534e70d252d3f18e9fe57d4a8e2d
@@ -76,6 +77,8 @@ the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, 
 2026-11-14 refresh at playTests (AUDIT 8.0, PiI, protocols 664d1c6): 15 queries over 2 to 3 pages, 1398 items, matched on titles and descriptions, plus a local scan of Workshop XML. Still no translation of the original in any language (nothing to integrate, AUDIT 6.c), no patch, no retexture, no CE patch, no other Kija race. Only the original 2726461020 and our Teshi Renew mention Ki or Kija. Comments of the original (27): one asks Royalty compatibility for the permanently hostile Kija faction, one a CE patch; nothing linked. Nothing subscribed. Open point for us: KijaOutcast hostility and Royalty (Patches/Royalty_Empire.xml), to check at playTests.
 
 2026-11-17 refresh requested by CoKK (PiI, report rev 8b8a75c, `../docs/inventory/ecosystem-steam/CreaturesOfKiKijaRenew.md`, ecosystem-links block added): parent 2726461020 (Creatures of Ki Continued, tags 1.0 to 1.4, dead for 1.6); linked 3806709627 (Teshi Renew, tags 1.6 1.7). No translation, patch, retexture, fork or other Kija race. Royalty compatibility patch for the Kija factions: none on Steam, only the request in the original's comments, so our own Patches/Royalty_Empire.xml stays untested (8.f). Shooki's 1726422863 not readable (removed or hidden). Verdict unchanged: the mod goes on; nothing to integrate at localize.
+
+2026-11-19 delta by PiI (report section Refresh 2026-11-19, block unchanged): nothing new since 2026-11-17. Original 2726461020 unchanged (tags 1.0 to 1.4, 2024-04-25); no translation, patch, retexture, replacement, fork or other Kija race; Teshi Renew updated 2026-11-17. Verdict unchanged: the mod goes on. ecosystem_line 1.0 recorded.
 
 ## NSB
 
