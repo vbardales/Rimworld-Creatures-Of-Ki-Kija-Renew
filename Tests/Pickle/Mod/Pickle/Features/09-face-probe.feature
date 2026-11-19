@@ -1,4 +1,4 @@
-# Probe, not a gallery capture: does the face stack (mouth, lids) draw on a Kija_Head pawn in the Sanctuary map?
+# Probe, not a gallery capture: does the face stack (mouth, lids) draw on a Kija_Average head (gene Kija_Head) in the Sanctuary map?
 # One guest, one close screenshot of the head. If mouth or lids are missing, the log names the missing Facial Animation comp.
 @requires:nelim.sanctuarybacklot @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.colonistrace @requires:nelim.biotechbodies
 Feature: Kija face parts probe
@@ -12,7 +12,7 @@ Feature: Kija face parts probe
     And Nelim's Pickle Tools: a colonist "Fenn" of kind "Colonist_Kija" exists
     And Nelim's Pickle Tools: "Fenn" gender is Female
     And Nelim's Pickle Tools: "Fenn" xenotype is "Kija"
-    And Nelim's Pickle Tools: "Fenn" head type is "Kija_Head"
+    And Nelim's Pickle Tools: "Fenn" head type is "Kija_Average"
     And Nelim's Pickle Tools: "Fenn" hairstyle is "Bald"
     And Nelim's Pickle Tools: "Fenn" mouth is "MouthLipsSimpleSmile"
     And Nelim's Pickle Tools: "Fenn" lids are "LidCheerful"
