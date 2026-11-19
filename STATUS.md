@@ -47,7 +47,7 @@ remaining:
   - "2026-11-18: ticket a2af (kija fur-test, vanilla FurCovered_<type> as bodyPaths) GREEN 4 of 4, exitReason passed. Captures furtest-after-Female and -Male read: body drawn white with fluff marks (vanilla fur body, no spots, no fawn), head unchanged brown. Test files reverted (Genes_Kija.xml checkout, feature 08 deleted), never committed; tree clean. Owner answered (2026-11-19): original mod had no fur layer, the fawn spotted PNG is the fur, so keep our PNGs. Run deleted from Inbox (throwaway test, proof not on current Mod/)"
 updated: 2026-11-19
 code_review_sha: b86c4e30beb16d3ed30dca3de42e36831a13b930
-protocols_read_sha: 67a9b614869aa71f26d9e84f2ee81b9238de45b9
+protocols_read_sha: 4d1e2f7c6ebdb5388a58a563538bc1d56dc0f6d9
 ---
 
 # Creatures of Ki: Kija Renew: status
