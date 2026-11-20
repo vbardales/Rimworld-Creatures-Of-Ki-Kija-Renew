@@ -36,7 +36,7 @@
 #        (197, 155), Plant_Daylily x6 fully grown at (193, 148) (196, 147) (199, 147) (202, 148) (193, 156) (202, 156). Says: the whole people and the three bodies in one scene.
 #   6. kija-6-departure | MEDIUM-WIDE (closing) | statue-garden centre 155 99, frame (155, 100) root size 9 | 18h Clear | +11 hours
 #        Subject: the guests leave without the crate, back views up the path, tails and ears in warm light. Fenn (153, 100), Bram (155, 101), Wisp (157, 100) facing North
-#        and forced to walk, 30 ticks, paused; Nelim in profile at (150, 98) facing East watching. Decor: Plant_Rose x4 at (151, 102) (153, 104) (157, 104) (161, 103),
+#        and forced to walk, 30 ticks, paused; Nelim in profile at (150, 98) facing East watching. Decor: Plant_Rose x4 at (151, 102) (153, 104) (154, 104) (161, 103),
 #        Plant_Daylily x4 at (150, 100) (152, 106) (158, 106) (160, 100), TorchLamp lit at (152, 103). Mirrors shot 1. Says: they leave at golden hour.
 #   7. kija-7-genes | INTERFACE tab, no subtitle | terrace (196, 121), cropped from the 1920x1080 frame | 9h Clear
 #        Genes tab of Fenn (the Kija genes): select Fenn alone, the game interface is shown, open the hidden Genes inspect tab (PiT 2026-11-19, compiled, not played with a Kija).
@@ -216,7 +216,7 @@ Feature: Workshop gallery captures
     And Nelim's Sanctuary: I am at the sanctuary "statue-garden"
     And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (151, 102) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (153, 104) fully grown
-    And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (157, 104) fully grown
+    And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (154, 104) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (161, 103) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (150, 100) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (152, 106) fully grown
