@@ -15,11 +15,11 @@
 #   1. kija-1-arrival | WIDE (opening) | water-garden centre 167 173, frame (167, 172) root size 10 | 7h Clear | +0
 #        Subject: the guests arrive at dawn with goods. Fenn leads in profile (162, 171) facing East and walks on, Bram three-quarter front (160, 172) carrying Milk,
 #        Wisp three-quarter back (157, 171) facing North, Nelim (171, 172) facing West forced to walk, paused mid-stride (instant: just before the greeting).
-#        A Duck seen from the front at (165, 169). Decor: TorchLamp lit at (163, 175) and (172, 175), DR_StickLantern lit at (168, 170), Plant_Daylily x5 fully grown
+#        A Duck seen from the front at (165, 169). Decor: TorchLamp lit at (163, 175) and (172, 175), Plant_Daylily x5 fully grown
 #        at (160, 174) (162, 175) (165, 175) (168, 175) (171, 174). Gesture: forced walks, 40 ticks, paused. Says: a new people walks in at dawn with goods.
 #   2. kija-2-offer | MEDIUM | terrace centre 196 123, frame (196, 122) root size 6.8 | 9h Clear | +2 hours
 #        Subject: Fenn offers the crate to Nelim. Fenn three-quarter facing East at (194, 121) carrying Milk, Nelim in profile at (198, 121) facing West, EndTable between at
-#        (196, 121). Decor: Stool x2 empty at (194, 124) (198, 124), Plant_Rose x2 at (193, 123) (199, 123), SculptureSmall at (196, 124), TorchLamp lit at (200, 121).
+#        (196, 121). Decor: Stool x2 empty at (194, 124) (198, 124), Plant_Rose x2 at (192, 122) (199, 123), SculptureSmall at (196, 124), TorchLamp lit at (200, 121).
 #        Instant: just before Nelim takes it; Fenn forced to walk to (195, 121), 40 ticks, paused. Says: a Kija woman trades with the colonist, ears, mane and spots read.
 #   3. kija-3-rice | MEDIUM-WIDE | rice-paddies (229, 121), frame (229, 120) root size 9 | 11h Clear | +4 hours
 #        Subject: Bram harvests the ripe rice. Bram back view at (228, 121) forced into the job Harvest on the plant at (229, 121), paused after 90 ticks (read the
@@ -36,14 +36,14 @@
 #        (197, 155), Plant_Daylily x6 fully grown at (193, 148) (196, 147) (199, 147) (202, 148) (193, 156) (202, 156). Says: the whole people and the three bodies in one scene.
 #   6. kija-6-departure | MEDIUM-WIDE (closing) | statue-garden centre 155 99, frame (155, 100) root size 9 | 18h Clear | +11 hours
 #        Subject: the guests leave without the crate, back views up the path, tails and ears in warm light. Fenn (153, 100), Bram (155, 101), Wisp (157, 100) facing North
-#        and forced to walk, 30 ticks, paused; Nelim in profile at (150, 98) facing East watching. Decor: Plant_Rose x4 at (151, 102) (153, 104) (157, 104) (159, 102),
+#        and forced to walk, 30 ticks, paused; Nelim in profile at (150, 98) facing East watching. Decor: Plant_Rose x4 at (151, 102) (153, 104) (157, 104) (161, 103),
 #        Plant_Daylily x4 at (150, 100) (152, 106) (158, 106) (160, 100), TorchLamp lit at (152, 103) and (158, 103). Mirrors shot 1. Says: they leave at golden hour.
 #   7. kija-7-genes | INTERFACE tab, no subtitle | terrace (196, 121), cropped from the 1920x1080 frame | 9h Clear
 #        Genes tab of Fenn (the Kija genes): select Fenn alone, the game interface is shown, open the hidden Genes inspect tab (PiT 2026-11-19, compiled, not played with a Kija).
 #        Guest steps: gender, xenotype Kija, then body type LAST; never `the other colonists are out of frame` with guests.
 # Open points: face parts of the guests (MouthLipsSimpleSmile needs the face stack of the Sanctuary map with a Kija head), Bald with a Kija head, the cells above, the Duck
 # kind at the pond, Milk placed as decor, ears and tail legible at 268 px. Novel and Milk are Core defs (BookDefs.xml, Core items).
-@requires:nelim.sanctuarybacklot @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.stagedecor @requires:nelim.pickletools.inspecttabs @requires:nelim.biotechbodies
+@requires:nelim.sanctuarybacklot @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.stagedecor @requires:nelim.pickletools.inspecttabs @requires:nelim.pickletools.screenshotmode @requires:nelim.biotechbodies
 Feature: Workshop gallery captures
 
   Background:
@@ -89,8 +89,6 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: the decor "TorchLamp" at (163, 175) is lit
     And Nelim's Pickle Tools: I place the decor "TorchLamp" exactly at (172, 175)
     And Nelim's Pickle Tools: the decor "TorchLamp" at (172, 175) is lit
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (168, 170)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (168, 170) is lit
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (160, 174) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (162, 175) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (165, 175) fully grown
@@ -123,7 +121,7 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: I place the decor "EndTable" exactly at (196, 121)
     And Nelim's Pickle Tools: I place the decor "Stool" exactly at (194, 124)
     And Nelim's Pickle Tools: I place the decor "Stool" exactly at (198, 124)
-    And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (193, 123) fully grown
+    And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (192, 122) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (199, 123) fully grown
     And Nelim's Pickle Tools: I place the decor "SculptureSmall" exactly at (196, 124)
     And Nelim's Pickle Tools: I place the decor "TorchLamp" exactly at (200, 121)
@@ -178,7 +176,7 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: the colonist "Bram" is removed from the map
     And Nelim's Pickle Tools: I place the decor "BookcaseSmall" exactly at (141, 74)
     And Nelim's Pickle Tools: I place the decor "PlantPot_Bonsai" exactly at (143, 73)
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (139, 72)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" exactly at (139, 72)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (139, 72) is lit
     And I wait 60 ticks
     When Nelim's Pickle Tools: "Wisp" stands at (141, 72) facing South
@@ -225,7 +223,7 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (151, 102) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (153, 104) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (157, 104) fully grown
-    And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (159, 102) fully grown
+    And Nelim's Pickle Tools: I place the decor "Plant_Rose" at (161, 103) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (150, 100) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (152, 106) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (158, 106) fully grown

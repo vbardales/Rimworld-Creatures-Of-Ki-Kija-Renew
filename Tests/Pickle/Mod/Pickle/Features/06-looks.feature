@@ -1,7 +1,7 @@
 # What STATUS.md lists as unverified and only a capture shows: the head (original customHeadDrawSize 0.7), the tail and
 # chest offsets, the Kija skin, the placeholder gene icons. Each scenario takes the Kija from one facing so a reviewer
 # sees the head, the tail and the chest on the body. A green here says the trajet ran, not that the picture is right.
-@review @kija-looks @timeout:180 @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.screenshotstudio
+@review @kija-looks @timeout:180 @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.clickdiagnostics
 Feature: A Kija is drawn with its head, tail and chest on every facing
 
   Background:
