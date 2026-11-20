@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Facial Animation draws its own head and skips the vanilla head type graphic, so a Kija would lose its ears and mane.
+       This head replaces the blank FA head for pawns that carry Kija_Head (FaceTypeDef.targetGeneDefs). Loaded only with Facial Animation (LoadFolders.xml). -->
+  <FacialAnimation.HeadTypeDef>
+    <defName>Kija_FAHead</defName>
+    <texPath>Things/Kija/Head/FA</texPath>
+    <enableUnisexTexPath>true</enableUnisexTexPath>
+    <shader>Map/Cutout</shader>
+    <targetGeneDefs>
+      <li>Kija_Head</li>
+    </targetGeneDefs>
+  </FacialAnimation.HeadTypeDef>
+</Defs>
