@@ -84,7 +84,7 @@ the Teshi mod). Duplicate check 1.a: `Search-Workshop.sh -p Kija -i About.xml`, 
 
 2026-11-19 sync (first, at writeShotlist). NSB docs last changed 2026-11-18 (plan to rebuild the save as Nelims-tribe-v2: places and decor may move). Rules of 2026-11-05 applied: NSB places, colonists, animals free; a colonist outside NSB and any change of colonist properties need the owner's express validation; outfits free; every animal the mod includes must be shown. NSB has no Kija or deer colonist. The mod adds no animal. Nothing in the mod's files changed by this sync (no shotlist yet). Rerun 2026-11-19 (night): NSB docs changed once since the morning sync (6db18f8, runs docs migrated to Docs/runs/pickle.md, no place, colonist or animal touched); NPT steps and catalogues unchanged. Nothing to update; rules 1 to 5 hold, included animals none.
 
-Places read: 2026-11-19 Tribe read: 2026-11-19 Steps read: 2026-11-19
+Places read: 2026-11-19 Tribe read: 2026-11-19 Steps read: 2026-11-20
 
 | Place | Shots that use it | Changes for the gallery | Last read |
 |---|---|---|---|
