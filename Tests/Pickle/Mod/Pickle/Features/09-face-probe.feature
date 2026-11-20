@@ -19,7 +19,7 @@ Feature: Kija face parts probe
     And Nelim's Pickle Tools: the facial animations are listed
     And Nelim's Pickle Tools: the render nodes of "Fenn" are logged
     And Nelim's Pickle Tools: the face parts of "Fenn" are logged
-    And Nelim's Pickle Tools: the draw state of the render nodes of "Fenn" are logged
+    And Nelim's Pickle Tools: the draw state of the render nodes of "Fenn" is logged
     And Nelim's Pickle Tools: "Fenn" stands at (166, 171) facing South
     And I wait 60 ticks
     When game speed is paused

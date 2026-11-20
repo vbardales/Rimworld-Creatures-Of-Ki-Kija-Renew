@@ -1,4 +1,4 @@
-@review @kija-body @timeout:180 @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.screenshotstudio
+@review @kija-body @timeout:180 @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.clickdiagnostics
 Feature: a Kija colonist is drawn with the Kija body textures through Biotech Bodies
 
   # The gene Kija_Body (Mod/Defs/GeneDefs/Genes_Kija.xml) carries a BiotechBodies.BodyLookExtension: Female is drawn
