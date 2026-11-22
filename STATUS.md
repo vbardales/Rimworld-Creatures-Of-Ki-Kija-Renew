@@ -50,7 +50,7 @@ remaining:
 ecosystem_line: 1.0
 updated: 2026-11-22
 code_review_sha: b86c4e30beb16d3ed30dca3de42e36831a13b930
-protocols_read_sha: 5b23d5f7662275759234a98697dddb80f80a686e
+protocols_read_sha: adc8e5f34e0a98d18369fed5d382f1fce1b2bd64
 ---
 
 # Creatures of Ki: Kija Renew: status

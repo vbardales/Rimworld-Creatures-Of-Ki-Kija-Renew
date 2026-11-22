@@ -18,7 +18,7 @@
 #        A Duck seen from the front at (165, 169). Decor: Plant_Daylily x5 fully grown
 #        at (160, 174) (162, 175) (165, 175) (168, 175) (171, 174). Gesture: forced walks, 40 ticks, paused. Says: a new people walks in at dawn with goods.
 #   2. kija-2-offer | MEDIUM | terrace centre 196 123, frame (196, 121) root size 5 | 9h Clear | +2 hours
-#        Subject: Fenn offers the crate to Nelim. Fenn at (195, 121) facing East (arrives from (194, 121) by a forced walk) carrying Milk, Nelim at (197, 121) facing West, face to face in contact, EndTable between at
+#        Subject: Fenn offers the crate to Nelim. Fenn at (195, 121) facing East (arrives from (194, 120) by a forced walk) carrying Milk, Nelim at (197, 121) facing West, face to face in contact, EndTable between at
 #        (196, 121). Decor: Stool x2 empty at (194, 124) (198, 124), Plant_Rose x2 at (193, 122) (197, 123), SculptureSmall at (196, 124), TorchLamp lit at (200, 121).
 #        Instant: just before Nelim takes it; forced walk 1 cell, 20 ticks, paused. Says: a Kija woman trades with the colonist, ears, mane and spots read.
 #   3. kija-3-rice | MEDIUM-WIDE | rice-paddies (229, 121), frame (229, 120) root size 5.5 | 11h Clear | +4 hours
@@ -28,7 +28,7 @@
 #        Fallback if the tool does not show: Bram walks the row with the crate. Says: the Kija are farmers.
 #   4. kija-4-book | CLOSE (series close shot) | hut (141, 72), frame (141, 73) root size 4.5 | 12h Clear | +5 hours
 #        Subject: Wisp takes a book from the shelf. Wisp three-quarter front at (141, 72) facing South carrying Novel (forced walk from (140, 72), 20 ticks, paused), just after taking it from the BookcaseSmall at
-#        (141, 74). Decor: PlantPot_Bonsai at (143, 73), Stool at (139, 73), TorchLamp lit at (143, 71) (hut was dark). Nelim out of frame at (150, 66). Says: the thin Kija, head
+#        (141, 74). Decor: PlantPot_Bonsai at (143, 73), TorchLamp lit at (143, 71) (hut was dark). Nelim out of frame at (150, 66). Says: the thin Kija, head
 #        and shoulders, ears and mane large in the frame.
 #   5. kija-5-trade | MEDIUM | emerald-clearing (197, 152), frame (197, 152) root size 5.5 | 16h Clear | +9 hours
 #        Subject: Bram hands the crate to Nelim. Bram profile at (196, 152) facing East carrying Milk, Nelim at (197, 152) facing West in contact, Fenn at (199, 151) facing West,
@@ -123,7 +123,7 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: I place the decor "TorchLamp" exactly at (200, 121)
     And Nelim's Pickle Tools: the decor "TorchLamp" at (200, 121) is lit
     And I wait 60 ticks
-    When Nelim's Pickle Tools: "Fenn" stands at (194, 121) facing East
+    When Nelim's Pickle Tools: "Fenn" stands at (194, 120) facing East
     And Nelim's Pickle Tools: "Fenn" carries the item "Milk"
     And Nelim's Pickle Tools: "Nelim" stands at (197, 121) facing West
     And Nelim's Pickle Tools: "Fenn" is forced to walk to (195, 121)
@@ -172,7 +172,6 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: the colonist "Bram" is removed from the map
     And Nelim's Pickle Tools: I place the decor "BookcaseSmall" exactly at (141, 74)
     And Nelim's Pickle Tools: I place the decor "PlantPot_Bonsai" exactly at (143, 73)
-    And Nelim's Pickle Tools: I place the decor "Stool" exactly at (139, 73)
     And Nelim's Pickle Tools: I place the decor "TorchLamp" exactly at (143, 71)
     And Nelim's Pickle Tools: the decor "TorchLamp" at (143, 71) is lit
     And I wait 60 ticks
