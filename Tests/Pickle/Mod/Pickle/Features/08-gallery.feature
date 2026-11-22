@@ -18,16 +18,16 @@
 #        A Duck seen from the front at (165, 169). Decor: Plant_Daylily x5 fully grown
 #        at (160, 174) (162, 175) (165, 175) (168, 175) (171, 174). Gesture: forced walks, 40 ticks, paused. Says: a new people walks in at dawn with goods.
 #   2. kija-2-offer | MEDIUM | terrace centre 196 123, frame (196, 121) root size 5 | 9h Clear | +2 hours
-#        Subject: Fenn offers the crate to Nelim. Fenn at (195, 121) facing East carrying Milk, Nelim at (197, 121) facing West, face to face in contact, EndTable between at
+#        Subject: Fenn offers the crate to Nelim. Fenn at (195, 121) facing East (arrives from (194, 121) by a forced walk) carrying Milk, Nelim at (197, 121) facing West, face to face in contact, EndTable between at
 #        (196, 121). Decor: Stool x2 empty at (194, 124) (198, 124), Plant_Rose x2 at (193, 122) (197, 123), SculptureSmall at (196, 124), TorchLamp lit at (200, 121).
-#        Instant: just before Nelim takes it; no walk, 20 ticks, paused. Says: a Kija woman trades with the colonist, ears, mane and spots read.
+#        Instant: just before Nelim takes it; forced walk 1 cell, 20 ticks, paused. Says: a Kija woman trades with the colonist, ears, mane and spots read.
 #   3. kija-3-rice | MEDIUM-WIDE | rice-paddies (229, 121), frame (229, 120) root size 5.5 | 11h Clear | +4 hours
 #        Subject: Bram harvests the ripe rice. Bram back view at (228, 121) forced into the job Harvest on the plant at (229, 121), paused after 90 ticks (read the
 #        first capture, 60 to 120); Show Me Your Tools draws the tool (unproven). Nelim in profile at (231, 120) carrying Milk. Decor: Plant_Rice fully grown at
 #        (229, 121) (229, 122) (230, 121), Hay at (225, 118) (225, 119) (226, 118), Milk crate at (233, 118), Plant_Daylily x3 at (226, 123) (227, 123) (228, 123).
 #        Fallback if the tool does not show: Bram walks the row with the crate. Says: the Kija are farmers.
 #   4. kija-4-book | CLOSE (series close shot) | hut (141, 72), frame (141, 73) root size 4.5 | 12h Clear | +5 hours
-#        Subject: Wisp takes a book from the shelf. Wisp three-quarter front at (141, 72) facing South carrying Novel, just after taking it from the BookcaseSmall at
+#        Subject: Wisp takes a book from the shelf. Wisp three-quarter front at (141, 72) facing South carrying Novel (forced walk from (140, 72), 20 ticks, paused), just after taking it from the BookcaseSmall at
 #        (141, 74). Decor: PlantPot_Bonsai at (143, 73), Stool at (139, 73), TorchLamp lit at (143, 71) (hut was dark). Nelim out of frame at (150, 66). Says: the thin Kija, head
 #        and shoulders, ears and mane large in the frame.
 #   5. kija-5-trade | MEDIUM | emerald-clearing (197, 152), frame (197, 152) root size 5.5 | 16h Clear | +9 hours
@@ -123,9 +123,10 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: I place the decor "TorchLamp" exactly at (200, 121)
     And Nelim's Pickle Tools: the decor "TorchLamp" at (200, 121) is lit
     And I wait 60 ticks
-    When Nelim's Pickle Tools: "Fenn" stands at (195, 121) facing East
+    When Nelim's Pickle Tools: "Fenn" stands at (194, 121) facing East
     And Nelim's Pickle Tools: "Fenn" carries the item "Milk"
     And Nelim's Pickle Tools: "Nelim" stands at (197, 121) facing West
+    And Nelim's Pickle Tools: "Fenn" is forced to walk to (195, 121)
     And Nelim's Pickle Tools: I let 20 ticks pass
     And game speed is paused
     And Nelim's Pickle Tools: studio presentation mode is enabled
@@ -175,9 +176,11 @@ Feature: Workshop gallery captures
     And Nelim's Pickle Tools: I place the decor "TorchLamp" exactly at (143, 71)
     And Nelim's Pickle Tools: the decor "TorchLamp" at (143, 71) is lit
     And I wait 60 ticks
-    When Nelim's Pickle Tools: "Wisp" stands at (141, 72) facing South
+    When Nelim's Pickle Tools: "Wisp" stands at (140, 72) facing South
     And Nelim's Pickle Tools: "Wisp" carries the item "Novel"
     And Nelim's Pickle Tools: "Nelim" stands at (150, 66) facing West
+    And Nelim's Pickle Tools: "Wisp" is forced to walk to (141, 72)
+    And Nelim's Pickle Tools: I let 20 ticks pass
     And game speed is paused
     And Nelim's Pickle Tools: studio presentation mode is enabled
     And Nelim's Pickle Tools: I frame the area centred on (141, 73) at root size 4.5
